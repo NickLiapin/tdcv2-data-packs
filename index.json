@@ -1,0 +1,1301 @@
+{
+  "schemaVersion": 1,
+  "description": "TDC data packs. Axis-pure bundles that compose: install common + a language (en, …) + a country (usa, …). Verify each by sha256.",
+  "bundles": [
+    {
+      "id": "common",
+      "name": "Common (locale-agnostic)",
+      "description": "Generators bound to neither a language nor a country: uuid, hashes, ISBN/ISSN, GTIN/UPC/EAN, card PANs, MRZ, IPv4/IPv6/MAC, semver, and more.",
+      "file": "bundles/common.zip",
+      "bytes": 47209,
+      "sha256": "e8c605dcf5d41fa2f4415cb93f721f6903d2d05902aca8c73d99820a7734d646",
+      "contents": [
+        "packs/common"
+      ]
+    },
+    {
+      "id": "ar",
+      "name": "Arabic (language)",
+      "description": "Content bound to the Arabic language rather than to any one country: address, airline, animal, book, clothing, color, commerce, company, date, education, event, finance, and 23 more.",
+      "file": "bundles/ar.zip",
+      "bytes": 85911,
+      "sha256": "41d4406eefbcdc1598d7208a3de3722b240a1c4b1ab87bfcb3b9d3ee3038d3b9",
+      "locale": "ar",
+      "contents": [
+        "packs/ar"
+      ]
+    },
+    {
+      "id": "de",
+      "name": "German (language)",
+      "description": "Content bound to the German language rather than to any one country: address, airline, animal, book, clothing, color, commerce, company, date, education, event, finance, and 23 more.",
+      "file": "bundles/de.zip",
+      "bytes": 92814,
+      "sha256": "eea39992c7e9d32930edad0289e8d44da125c3741170f0ba2e7cd67bb67cf6ef",
+      "locale": "de",
+      "contents": [
+        "packs/de"
+      ]
+    },
+    {
+      "id": "el",
+      "name": "Greek (language)",
+      "description": "Content bound to the Greek language rather than to any one country: address, airline, animal, book, clothing, color, commerce, company, date, education, event, finance, and 23 more.",
+      "file": "bundles/el.zip",
+      "bytes": 120581,
+      "sha256": "7d6c379b85ee216e3432fd63a8fcd79c9a3a49c976b61d1266532f844a67a5ef",
+      "locale": "el",
+      "contents": [
+        "packs/el"
+      ]
+    },
+    {
+      "id": "en",
+      "name": "English (language)",
+      "description": "Content bound to the English language, not to any one country: given names and surnames (US-frequency-weighted), gender words, country names. Shared by every English-speaking locale (USA, UK, Canada, Australia, …).",
+      "file": "bundles/en.zip",
+      "bytes": 148842,
+      "sha256": "d020b8434f5e9ef0844a853781f91adbf8f27d72ce7856444d2ac6734e1c6c38",
+      "locale": "en",
+      "contents": [
+        "packs/en"
+      ]
+    },
+    {
+      "id": "es",
+      "name": "Spanish (language)",
+      "description": "Content bound to the Spanish language, not to any one country: given names and the paternal+maternal surname pair, address wording, company legal forms, commerce and everyday vocabulary. Shared by every Spanish-speaking locale (Mexico, Argentina, Spain, Colombia, …).",
+      "file": "bundles/es.zip",
+      "bytes": 91548,
+      "sha256": "136d8df50a0ea34762d5d842b6bdf4fe895e0542f49243eaf5af84f5c188884e",
+      "locale": "es",
+      "contents": [
+        "packs/es"
+      ]
+    },
+    {
+      "id": "fr",
+      "name": "French (language)",
+      "description": "Content bound to the French language rather than to any one country: address, airline, animal, book, clothing, color, commerce, company, date, education, event, finance, and 23 more.",
+      "file": "bundles/fr.zip",
+      "bytes": 82043,
+      "sha256": "10c1c3509fba61cbac0e4607807c6f233c245f2bbc6c040f1a05319eb00adedb",
+      "locale": "fr",
+      "contents": [
+        "packs/fr"
+      ]
+    },
+    {
+      "id": "it",
+      "name": "Italian (language)",
+      "description": "Content bound to the Italian language rather than to any one country: address, airline, animal, book, clothing, color, commerce, company, date, education, event, finance, and 23 more.",
+      "file": "bundles/it.zip",
+      "bytes": 91662,
+      "sha256": "e4c98dc77fc4f646ff7c98f59c5985416f2ace5c76419b9b58df289c68c45930",
+      "locale": "it",
+      "contents": [
+        "packs/it"
+      ]
+    },
+    {
+      "id": "pl",
+      "name": "Polish (language)",
+      "description": "Content bound to the Polish language rather than to any one country: address, airline, animal, book, clothing, color, commerce, company, date, education, event, finance, and 23 more.",
+      "file": "bundles/pl.zip",
+      "bytes": 96333,
+      "sha256": "ef8e1afc0fe90f40a06727fb11ab4cb14628badc9137fc7b98eeed529c605066",
+      "locale": "pl",
+      "contents": [
+        "packs/pl"
+      ]
+    },
+    {
+      "id": "pt",
+      "name": "Portuguese (language)",
+      "description": "Content bound to the Portuguese language rather than to any one country: address, airline, animal, book, clothing, color, commerce, company, date, education, event, finance, and 23 more.",
+      "file": "bundles/pt.zip",
+      "bytes": 92536,
+      "sha256": "8c5fb9ac6adbc3eae6d67dc39668beea80b8c11fc6bcf7af09ed50b2be38de90",
+      "locale": "pt",
+      "contents": [
+        "packs/pt"
+      ]
+    },
+    {
+      "id": "ru",
+      "name": "Russian (language)",
+      "description": "Content bound to the Russian language: given names, gendered surnames and patronymics, gender words, months and weekdays, colors, country names. Shared by every Russian-speaking locale.",
+      "file": "bundles/ru.zip",
+      "bytes": 119126,
+      "sha256": "e389cf2e3b4fefee30c807c567c3e3807b06968f2e73f7cc2de2257922ffbfd6",
+      "locale": "ru",
+      "contents": [
+        "packs/ru"
+      ]
+    },
+    {
+      "id": "algeria",
+      "name": "Algeria (country)",
+      "description": "Data specific to Algeria: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/algeria.zip",
+      "bytes": 3589,
+      "sha256": "7d39b372351e305b49a27a9ac2191269ff20b7287eca028266d29d83abd7b4d8",
+      "country": "algeria",
+      "contents": [
+        "packs/countries/algeria"
+      ]
+    },
+    {
+      "id": "angola",
+      "name": "Angola (country)",
+      "description": "Data specific to Angola: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/angola.zip",
+      "bytes": 4384,
+      "sha256": "027c60ecdc6e8dc9c9fc8860a9080c2a864129bc512a67c2550a3e3ac97d0803",
+      "country": "angola",
+      "contents": [
+        "packs/countries/angola"
+      ]
+    },
+    {
+      "id": "argentina",
+      "name": "Argentina (country)",
+      "description": "Data specific to Argentina: CUIT and CUIL, the CBU with both of its check digits, the 23 provinces and CABA with ISO codes, the CPA postal format whose leading letter is the province, cities, banks with their BCRA codes, universities, Primera División clubs, holidays and the Mercosur plate.",
+      "file": "bundles/argentina.zip",
+      "bytes": 15605,
+      "sha256": "7e67735498e18e0fa05d79b476b1b4900ecbd41100a6976c589fcad86840a910",
+      "country": "argentina",
+      "contents": [
+        "packs/countries/argentina"
+      ]
+    },
+    {
+      "id": "australia",
+      "name": "Australia (country)",
+      "description": "Data specific to Australia: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/australia.zip",
+      "bytes": 12531,
+      "sha256": "3d10b79f0c1a4537f02ccf5e2edb094feb3dc97c1c480a68db56fbe1f8c55d31",
+      "country": "australia",
+      "contents": [
+        "packs/countries/australia"
+      ]
+    },
+    {
+      "id": "austria",
+      "name": "Austria (country)",
+      "description": "Data specific to Austria: education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/austria.zip",
+      "bytes": 5037,
+      "sha256": "613c35d0c8451413c771a71cf2e4ee73cc99eff36681a65f9a4e82bd2083d220",
+      "country": "austria",
+      "contents": [
+        "packs/countries/austria"
+      ]
+    },
+    {
+      "id": "bahrain",
+      "name": "Bahrain (country)",
+      "description": "Data specific to Bahrain: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/bahrain.zip",
+      "bytes": 3835,
+      "sha256": "4a9debc31fa8a417c0399fd436f7aae290eb9eb5d67d8700fa2ad99603ae8064",
+      "country": "bahrain",
+      "contents": [
+        "packs/countries/bahrain"
+      ]
+    },
+    {
+      "id": "belarus",
+      "name": "Belarus (country)",
+      "description": "Data specific to Belarus: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/belarus.zip",
+      "bytes": 5202,
+      "sha256": "a3dbf8347b18b212f8cb57f8930cb2c42346f48f90184d6b39279a9d0e0641ec",
+      "country": "belarus",
+      "contents": [
+        "packs/countries/belarus"
+      ]
+    },
+    {
+      "id": "belgium",
+      "name": "Belgium (country)",
+      "description": "Data specific to Belgium: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/belgium.zip",
+      "bytes": 7213,
+      "sha256": "e6d3c612edc1aa0e2f63857e4a1f16fd1196e99331e44df3d8fdf9abff21acba",
+      "country": "belgium",
+      "contents": [
+        "packs/countries/belgium"
+      ]
+    },
+    {
+      "id": "benin",
+      "name": "Benin (country)",
+      "description": "Data specific to Benin: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/benin.zip",
+      "bytes": 3161,
+      "sha256": "e6111f7b4ae1acee5c826c234c97b8833f116d25422dda3980571fc4a5cebd99",
+      "country": "benin",
+      "contents": [
+        "packs/countries/benin"
+      ]
+    },
+    {
+      "id": "bolivia",
+      "name": "Bolivia (country)",
+      "description": "Data specific to Bolivia: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/bolivia.zip",
+      "bytes": 12321,
+      "sha256": "cfbcebfc5ba2ee77d30b592add2561798c398b5dbfafc026b35efc8c9ee39331",
+      "country": "bolivia",
+      "contents": [
+        "packs/countries/bolivia"
+      ]
+    },
+    {
+      "id": "brazil",
+      "name": "Brazil (country)",
+      "description": "Data specific to Brazil: docs, education, finance, geo, holiday, phone, phoneAreaCode, sport, tax, vehicle.",
+      "file": "bundles/brazil.zip",
+      "bytes": 7478,
+      "sha256": "975d75ebd562a90bdf1bcf7465acf05110bc72ada8b0219b072fa0561224fc13",
+      "country": "brazil",
+      "contents": [
+        "packs/countries/brazil"
+      ]
+    },
+    {
+      "id": "burkina_faso",
+      "name": "Burkina Faso (country)",
+      "description": "Data specific to Burkina Faso: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/burkina_faso.zip",
+      "bytes": 3486,
+      "sha256": "304033565871d5c8c43e32007f55038c8abb14b3e90c9980e7cb2721d99af536",
+      "country": "burkina_faso",
+      "contents": [
+        "packs/countries/burkina_faso"
+      ]
+    },
+    {
+      "id": "cameroon",
+      "name": "Cameroon (country)",
+      "description": "Data specific to Cameroon: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/cameroon.zip",
+      "bytes": 3158,
+      "sha256": "2c6d3ca444a80db0665da3558e8789394b27e0b825b2071c671b8df39359d06f",
+      "country": "cameroon",
+      "contents": [
+        "packs/countries/cameroon"
+      ]
+    },
+    {
+      "id": "canada",
+      "name": "Canada (country)",
+      "description": "Data specific to Canada: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/canada.zip",
+      "bytes": 10844,
+      "sha256": "66804884882b49bbe08dcacd4ef838b7cf0fe278a457e07783546490535fbcb8",
+      "country": "canada",
+      "contents": [
+        "packs/countries/canada"
+      ]
+    },
+    {
+      "id": "cape_verde",
+      "name": "Cape Verde (country)",
+      "description": "Data specific to Cape Verde: docs, education, finance, geo, holiday, phone, sport.",
+      "file": "bundles/cape_verde.zip",
+      "bytes": 4408,
+      "sha256": "96b3b81c2a36448dd5e0a7680d32989ac0d778dabc80059f8bef98ac6101a671",
+      "country": "cape_verde",
+      "contents": [
+        "packs/countries/cape_verde"
+      ]
+    },
+    {
+      "id": "chad",
+      "name": "Chad (country)",
+      "description": "Data specific to Chad: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/chad.zip",
+      "bytes": 3133,
+      "sha256": "5a9be1da947e8aa9a690a56e6e2024e088094fd436feb7c8a5a8466d0179c0c1",
+      "country": "chad",
+      "contents": [
+        "packs/countries/chad"
+      ]
+    },
+    {
+      "id": "chile",
+      "name": "Chile (country)",
+      "description": "Data specific to Chile: RUT and RUN with the módulo-11 check character including K, the 16 regions with their roman, ISO and CUT codes, 345 comunas with their Correos de Chile codes, cities, banks with CMF codes, universities, Primera División clubs, holidays and the post-2007 plate alphabet.",
+      "file": "bundles/chile.zip",
+      "bytes": 17472,
+      "sha256": "8a80d09dcb4a92f84842f35f9579cbef27a912a2d1eb3030af9a24bd439aaeba",
+      "country": "chile",
+      "contents": [
+        "packs/countries/chile"
+      ]
+    },
+    {
+      "id": "colombia",
+      "name": "Colombia (country)",
+      "description": "Data specific to Colombia: NIT with its mod-11 check digit, cédulas, the 32 departments and Bogotá with DANE and ISO codes, municipalities, postal codes drawn from the real department blocks, banks with their Banco de la República codes, universities, Categoría Primera A clubs, the holidays and which of them the Ley Emiliani moves to Monday, and the plate formats.",
+      "file": "bundles/colombia.zip",
+      "bytes": 16204,
+      "sha256": "09cc600d4d908c9647f1b091b1a4fa6d8f14f3a9fcc9c6a1e3f781d2b02bd311",
+      "country": "colombia",
+      "contents": [
+        "packs/countries/colombia"
+      ]
+    },
+    {
+      "id": "comoros",
+      "name": "Comoros (country)",
+      "description": "Data specific to Comoros: education, finance, geo, holiday, phone.",
+      "file": "bundles/comoros.zip",
+      "bytes": 2709,
+      "sha256": "cdbb430e6014e36bcc485610a1675f1c914844e4fc1c1f3a2d09d4c99a86241c",
+      "country": "comoros",
+      "contents": [
+        "packs/countries/comoros"
+      ]
+    },
+    {
+      "id": "congo",
+      "name": "Congo (country)",
+      "description": "Data specific to Congo: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/congo.zip",
+      "bytes": 3153,
+      "sha256": "b0a3257f6ff80d40f1ccefe5d1a96221d91ef58597add9ab9900531a91357115",
+      "country": "congo",
+      "contents": [
+        "packs/countries/congo"
+      ]
+    },
+    {
+      "id": "costa_rica",
+      "name": "Costa Rica (country)",
+      "description": "Data specific to Costa Rica: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/costa_rica.zip",
+      "bytes": 11233,
+      "sha256": "3abb2eb8fd24e13d5afaeb6a099845b026dfaa73a27435d6a124ce5a868e1875",
+      "country": "costa_rica",
+      "contents": [
+        "packs/countries/costa_rica"
+      ]
+    },
+    {
+      "id": "cuba",
+      "name": "Cuba (country)",
+      "description": "Data specific to Cuba: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/cuba.zip",
+      "bytes": 6362,
+      "sha256": "e5e9ac97191600fd21157caad3b43ca4e92ef796a44d8363fe3a745f639b33f2",
+      "country": "cuba",
+      "contents": [
+        "packs/countries/cuba"
+      ]
+    },
+    {
+      "id": "denmark",
+      "name": "Denmark (country)",
+      "description": "Data specific to Denmark: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/denmark.zip",
+      "bytes": 5952,
+      "sha256": "834a66fb93cf24336996016e779c827780b948390627a406a5896e0023cc5c55",
+      "country": "denmark",
+      "contents": [
+        "packs/countries/denmark"
+      ]
+    },
+    {
+      "id": "djibouti",
+      "name": "Djibouti (country)",
+      "description": "Data specific to Djibouti: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/djibouti.zip",
+      "bytes": 3103,
+      "sha256": "741738344e729d9a8dc15c17a2729449f4154475d31f40f5a7071ab6eec7df90",
+      "country": "djibouti",
+      "contents": [
+        "packs/countries/djibouti"
+      ]
+    },
+    {
+      "id": "dominican_republic",
+      "name": "Dominican Republic (country)",
+      "description": "Data specific to Dominican Republic: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/dominican_republic.zip",
+      "bytes": 11204,
+      "sha256": "6ba8385723a4dfd551071ae01a98358687ad318040adea7456b8d981712b6ee4",
+      "country": "dominican_republic",
+      "contents": [
+        "packs/countries/dominican_republic"
+      ]
+    },
+    {
+      "id": "dr_congo",
+      "name": "Dr Congo (country)",
+      "description": "Data specific to Dr Congo: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/dr_congo.zip",
+      "bytes": 3383,
+      "sha256": "5c58dd9e13adc1fdd54cec5b1a0411fb47fd90f2bd622a9bdabb8ebd6d1d3723",
+      "country": "dr_congo",
+      "contents": [
+        "packs/countries/dr_congo"
+      ]
+    },
+    {
+      "id": "east_timor",
+      "name": "East Timor (country)",
+      "description": "Data specific to East Timor: docs, education, finance, geo, holiday, phone, sport.",
+      "file": "bundles/east_timor.zip",
+      "bytes": 4048,
+      "sha256": "047cb6c51cd52783ed221d7dc31f22b0adc176d3d0678a810470be78e1e26993",
+      "country": "east_timor",
+      "contents": [
+        "packs/countries/east_timor"
+      ]
+    },
+    {
+      "id": "ecuador",
+      "name": "Ecuador (country)",
+      "description": "Data specific to Ecuador: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/ecuador.zip",
+      "bytes": 12126,
+      "sha256": "c8c5f16edcf412ce57b7d7d8153d037225e3c875160fe4dc65b6c20170d3af6b",
+      "country": "ecuador",
+      "contents": [
+        "packs/countries/ecuador"
+      ]
+    },
+    {
+      "id": "egypt",
+      "name": "Egypt (country)",
+      "description": "Data specific to Egypt: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/egypt.zip",
+      "bytes": 6952,
+      "sha256": "7fd11620868256600d76f3ac34b09c7a96c48e3829c36abb1bdfed94f349a2c8",
+      "country": "egypt",
+      "contents": [
+        "packs/countries/egypt"
+      ]
+    },
+    {
+      "id": "el_salvador",
+      "name": "El Salvador (country)",
+      "description": "Data specific to El Salvador: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/el_salvador.zip",
+      "bytes": 13967,
+      "sha256": "7bf0789d6a9755700fd3ec694f84d2d914900ce8864b339895d9fe476a96a7e6",
+      "country": "el_salvador",
+      "contents": [
+        "packs/countries/el_salvador"
+      ]
+    },
+    {
+      "id": "equatorial_guinea",
+      "name": "Equatorial Guinea (country)",
+      "description": "Data specific to Equatorial Guinea: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/equatorial_guinea.zip",
+      "bytes": 8747,
+      "sha256": "060b24923ee10c5474da86f45241a1d28291412e567b8698c8abbf896925e14f",
+      "country": "equatorial_guinea",
+      "contents": [
+        "packs/countries/equatorial_guinea"
+      ]
+    },
+    {
+      "id": "finland",
+      "name": "Finland (country)",
+      "description": "Data specific to Finland: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/finland.zip",
+      "bytes": 7110,
+      "sha256": "f9fc9e4fd2ac0cd2aa127de65c27af2df3876f070c94f56b814c743f36bddb55",
+      "country": "finland",
+      "contents": [
+        "packs/countries/finland"
+      ]
+    },
+    {
+      "id": "france",
+      "name": "France (country)",
+      "description": "Data specific to France: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/france.zip",
+      "bytes": 12293,
+      "sha256": "648ba41ec84f18d0d41580049057e83e34dfe94d003021eb62c7529f38e12a7e",
+      "country": "france",
+      "contents": [
+        "packs/countries/france"
+      ]
+    },
+    {
+      "id": "gabon",
+      "name": "Gabon (country)",
+      "description": "Data specific to Gabon: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/gabon.zip",
+      "bytes": 3049,
+      "sha256": "b392a96ce0c8250c80b1229467541afd1678d5b06c48a20cefb9ebadae0d3e26",
+      "country": "gabon",
+      "contents": [
+        "packs/countries/gabon"
+      ]
+    },
+    {
+      "id": "germany",
+      "name": "Germany (country)",
+      "description": "Data specific to Germany: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/germany.zip",
+      "bytes": 7337,
+      "sha256": "e87e5228c9e7f15b4be82110625ee05f8a1d38426c1a83d9ce6f3aa89c8c46a4",
+      "country": "germany",
+      "contents": [
+        "packs/countries/germany"
+      ]
+    },
+    {
+      "id": "greece",
+      "name": "Greece (country)",
+      "description": "Data specific to Greece: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/greece.zip",
+      "bytes": 7007,
+      "sha256": "fc7921c9a3c3396d54de3fc0d6e5cbcfbeb0e9e028f56847fe3d319c2a7aaa39",
+      "country": "greece",
+      "contents": [
+        "packs/countries/greece"
+      ]
+    },
+    {
+      "id": "guatemala",
+      "name": "Guatemala (country)",
+      "description": "Data specific to Guatemala: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/guatemala.zip",
+      "bytes": 9859,
+      "sha256": "3fd7060faaa17f14c60f2c339a2b163b20fbbde717babc0263816ec79261e9d8",
+      "country": "guatemala",
+      "contents": [
+        "packs/countries/guatemala"
+      ]
+    },
+    {
+      "id": "guinea",
+      "name": "Guinea (country)",
+      "description": "Data specific to Guinea: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/guinea.zip",
+      "bytes": 3142,
+      "sha256": "c4b62bdbc51403dd822724e7ce876b97d64056795f5233379f328fd9f4ba23ea",
+      "country": "guinea",
+      "contents": [
+        "packs/countries/guinea"
+      ]
+    },
+    {
+      "id": "guinea_bissau",
+      "name": "Guinea Bissau (country)",
+      "description": "Data specific to Guinea Bissau: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/guinea_bissau.zip",
+      "bytes": 4361,
+      "sha256": "c4719dbc0a967c754150c660a0ab637aecebaaa62b37b8897f99e4b4175ea71b",
+      "country": "guinea_bissau",
+      "contents": [
+        "packs/countries/guinea_bissau"
+      ]
+    },
+    {
+      "id": "haiti",
+      "name": "Haiti (country)",
+      "description": "Data specific to Haiti: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/haiti.zip",
+      "bytes": 3099,
+      "sha256": "e784a0631210d7f2de879255a54a2c0457f025d62ef82827c133f66ffa9dc209",
+      "country": "haiti",
+      "contents": [
+        "packs/countries/haiti"
+      ]
+    },
+    {
+      "id": "honduras",
+      "name": "Honduras (country)",
+      "description": "Data specific to Honduras: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/honduras.zip",
+      "bytes": 10771,
+      "sha256": "3df61f8dc26418ac82aebb37ba667b7b28905e327eea938bce0400ff6a300a69",
+      "country": "honduras",
+      "contents": [
+        "packs/countries/honduras"
+      ]
+    },
+    {
+      "id": "iraq",
+      "name": "Iraq (country)",
+      "description": "Data specific to Iraq: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/iraq.zip",
+      "bytes": 3949,
+      "sha256": "71076956900ca817568dc658f4850e6fa6db7db96bce97ac96985a2207b05af6",
+      "country": "iraq",
+      "contents": [
+        "packs/countries/iraq"
+      ]
+    },
+    {
+      "id": "ireland",
+      "name": "Ireland (country)",
+      "description": "Data specific to Ireland: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/ireland.zip",
+      "bytes": 11105,
+      "sha256": "ac16808aa4146e770c93002d163a76b67a38def17168c1fd61fde3e70c3573ee",
+      "country": "ireland",
+      "contents": [
+        "packs/countries/ireland"
+      ]
+    },
+    {
+      "id": "italy",
+      "name": "Italy (country)",
+      "description": "Data specific to Italy: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/italy.zip",
+      "bytes": 7379,
+      "sha256": "795bdf1d7c43359d2f107896d0f92bf78e419b5fa0794cb4e4cb41fe4d7ac238",
+      "country": "italy",
+      "contents": [
+        "packs/countries/italy"
+      ]
+    },
+    {
+      "id": "ivory_coast",
+      "name": "Ivory Coast (country)",
+      "description": "Data specific to Ivory Coast: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/ivory_coast.zip",
+      "bytes": 3579,
+      "sha256": "03bfb38fcd8ae100980936993a318e146ebca6d8d3c5737d70f8ae53fe5caefb",
+      "country": "ivory_coast",
+      "contents": [
+        "packs/countries/ivory_coast"
+      ]
+    },
+    {
+      "id": "jordan",
+      "name": "Jordan (country)",
+      "description": "Data specific to Jordan: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/jordan.zip",
+      "bytes": 4312,
+      "sha256": "708e4b013c5744e4df1a3f0ae0445370966067a04150b2c83bfc531d054e33bc",
+      "country": "jordan",
+      "contents": [
+        "packs/countries/jordan"
+      ]
+    },
+    {
+      "id": "kazakhstan",
+      "name": "Kazakhstan (country)",
+      "description": "Data specific to Kazakhstan: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/kazakhstan.zip",
+      "bytes": 5487,
+      "sha256": "57a783dc4e8d5d9c0159e3775274f23e3c432e223de223932f36161c718110b6",
+      "country": "kazakhstan",
+      "contents": [
+        "packs/countries/kazakhstan"
+      ]
+    },
+    {
+      "id": "kuwait",
+      "name": "Kuwait (country)",
+      "description": "Data specific to Kuwait: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/kuwait.zip",
+      "bytes": 3936,
+      "sha256": "3a8d20530f52d2dfa3b6fefb3ad184c70dd48cb5552ee7a4edbe1fade06b58d2",
+      "country": "kuwait",
+      "contents": [
+        "packs/countries/kuwait"
+      ]
+    },
+    {
+      "id": "kyrgyzstan",
+      "name": "Kyrgyzstan (country)",
+      "description": "Data specific to Kyrgyzstan: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/kyrgyzstan.zip",
+      "bytes": 4442,
+      "sha256": "78ce413f388a5f1e3d13e317410bb1ee69d4f2122874abeb6c264fd3f80f0b88",
+      "country": "kyrgyzstan",
+      "contents": [
+        "packs/countries/kyrgyzstan"
+      ]
+    },
+    {
+      "id": "lebanon",
+      "name": "Lebanon (country)",
+      "description": "Data specific to Lebanon: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/lebanon.zip",
+      "bytes": 4077,
+      "sha256": "beff2839be1a6f15707af0e0521d467be20fc27a716e55af6ebb7d052469147c",
+      "country": "lebanon",
+      "contents": [
+        "packs/countries/lebanon"
+      ]
+    },
+    {
+      "id": "libya",
+      "name": "Libya (country)",
+      "description": "Data specific to Libya: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/libya.zip",
+      "bytes": 3925,
+      "sha256": "3d16460f8ad10517c07a17c0152ec23424b8b6798dd60f714f6c9b35f4882be4",
+      "country": "libya",
+      "contents": [
+        "packs/countries/libya"
+      ]
+    },
+    {
+      "id": "liechtenstein",
+      "name": "Liechtenstein (country)",
+      "description": "Data specific to Liechtenstein: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/liechtenstein.zip",
+      "bytes": 3352,
+      "sha256": "4dd9e6d0a7e89e1a3bde81e17e7c2eef7567674ed22f19e2e398669580820328",
+      "country": "liechtenstein",
+      "contents": [
+        "packs/countries/liechtenstein"
+      ]
+    },
+    {
+      "id": "luxembourg",
+      "name": "Luxembourg (country)",
+      "description": "Data specific to Luxembourg: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/luxembourg.zip",
+      "bytes": 5967,
+      "sha256": "216d1ec96fac986fa450b78ccf33f0ad16af397294282addf9abd2430818a2f2",
+      "country": "luxembourg",
+      "contents": [
+        "packs/countries/luxembourg"
+      ]
+    },
+    {
+      "id": "macau",
+      "name": "Macau (country)",
+      "description": "Data specific to Macau: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/macau.zip",
+      "bytes": 3839,
+      "sha256": "f6e0e5b269d9d89c879ef91638f6383559a78996775c23cbe571af6625f7e765",
+      "country": "macau",
+      "contents": [
+        "packs/countries/macau"
+      ]
+    },
+    {
+      "id": "madagascar",
+      "name": "Madagascar (country)",
+      "description": "Data specific to Madagascar: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/madagascar.zip",
+      "bytes": 3188,
+      "sha256": "c385f9b834c5b61a29981c9515d6de36a3dc8be3d9f761c1d2a060ea7d7ba336",
+      "country": "madagascar",
+      "contents": [
+        "packs/countries/madagascar"
+      ]
+    },
+    {
+      "id": "mali",
+      "name": "Mali (country)",
+      "description": "Data specific to Mali: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/mali.zip",
+      "bytes": 3111,
+      "sha256": "2bfb4d97bd88684d1f22624911956941c868f16aa6f93580e0efc11c6bbc040a",
+      "country": "mali",
+      "contents": [
+        "packs/countries/mali"
+      ]
+    },
+    {
+      "id": "mauritania",
+      "name": "Mauritania (country)",
+      "description": "Data specific to Mauritania: docs, education, finance, geo, holiday, phone, sport.",
+      "file": "bundles/mauritania.zip",
+      "bytes": 3849,
+      "sha256": "ee6ddf3efb713e9c56c4c6d39f46cd3798f7e0ccb2ba161c390584caee9f8c17",
+      "country": "mauritania",
+      "contents": [
+        "packs/countries/mauritania"
+      ]
+    },
+    {
+      "id": "mexico",
+      "name": "Mexico (country)",
+      "description": "Data specific to Mexico regardless of the language it is written in: CURP, RFC, NSS and clave de elector with real check digits, CLABE with its Banxico bank codes, states and their INEGI/ISO/RENAPO codes, municipalities, cities, postal codes, universities, holidays, sports teams, plates and the SAT tax regimes.",
+      "file": "bundles/mexico.zip",
+      "bytes": 21182,
+      "sha256": "479e591a0609241877cfac725f6c69b2d9dd44bc8593d24bf83b02102a6ff094",
+      "country": "mexico",
+      "contents": [
+        "packs/countries/mexico"
+      ]
+    },
+    {
+      "id": "monaco",
+      "name": "Monaco (country)",
+      "description": "Data specific to Monaco: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/monaco.zip",
+      "bytes": 4417,
+      "sha256": "2344190d214287b93d7b9e4fadf8a7c99e3f3835d542cf89e3f472c61a7ad676",
+      "country": "monaco",
+      "contents": [
+        "packs/countries/monaco"
+      ]
+    },
+    {
+      "id": "morocco",
+      "name": "Morocco (country)",
+      "description": "Data specific to Morocco: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/morocco.zip",
+      "bytes": 4039,
+      "sha256": "879734480f0cdbb7b3860d2a907e63908e847fc108f2f10985a9da25e31ba64e",
+      "country": "morocco",
+      "contents": [
+        "packs/countries/morocco"
+      ]
+    },
+    {
+      "id": "mozambique",
+      "name": "Mozambique (country)",
+      "description": "Data specific to Mozambique: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/mozambique.zip",
+      "bytes": 4580,
+      "sha256": "1f93505299bf05dff8189bd3114411fbd86456e2e9225a43f74c329699a8a4a8",
+      "country": "mozambique",
+      "contents": [
+        "packs/countries/mozambique"
+      ]
+    },
+    {
+      "id": "netherlands",
+      "name": "Netherlands (country)",
+      "description": "Data specific to Netherlands: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/netherlands.zip",
+      "bytes": 6522,
+      "sha256": "d4f5fc66607f8d256c02756d336011a87d90e2dc96704181409eca734c34909a",
+      "country": "netherlands",
+      "contents": [
+        "packs/countries/netherlands"
+      ]
+    },
+    {
+      "id": "new_zealand",
+      "name": "New Zealand (country)",
+      "description": "Data specific to New Zealand: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/new_zealand.zip",
+      "bytes": 12234,
+      "sha256": "0b04d1d5b9ed923b9307afffc09586bdc8d25806dbfb4c6fa8ec6c6c93545653",
+      "country": "new_zealand",
+      "contents": [
+        "packs/countries/new_zealand"
+      ]
+    },
+    {
+      "id": "nicaragua",
+      "name": "Nicaragua (country)",
+      "description": "Data specific to Nicaragua: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/nicaragua.zip",
+      "bytes": 11389,
+      "sha256": "52867c887b5dafbe5a8921bea40eee8c7e52d36fd893f25c32cb39c1b0219dc2",
+      "country": "nicaragua",
+      "contents": [
+        "packs/countries/nicaragua"
+      ]
+    },
+    {
+      "id": "niger",
+      "name": "Niger (country)",
+      "description": "Data specific to Niger: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/niger.zip",
+      "bytes": 3015,
+      "sha256": "80281542a4025ee63c7fa553b7ddf38bf587f9902f5d880ee68bd222c3477a3e",
+      "country": "niger",
+      "contents": [
+        "packs/countries/niger"
+      ]
+    },
+    {
+      "id": "oman",
+      "name": "Oman (country)",
+      "description": "Data specific to Oman: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/oman.zip",
+      "bytes": 3156,
+      "sha256": "aacd4b3cb7b18da0906bc65138a4a3986ddaf0a2186979d9559bc7c65ba242b9",
+      "country": "oman",
+      "contents": [
+        "packs/countries/oman"
+      ]
+    },
+    {
+      "id": "palestine",
+      "name": "Palestine (country)",
+      "description": "Data specific to Palestine: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/palestine.zip",
+      "bytes": 4145,
+      "sha256": "cbcdbce2dec9bee1f9eff3e035bed334caf841579303d46190bd771af5fcd2eb",
+      "country": "palestine",
+      "contents": [
+        "packs/countries/palestine"
+      ]
+    },
+    {
+      "id": "panama",
+      "name": "Panama (country)",
+      "description": "Data specific to Panama: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/panama.zip",
+      "bytes": 10616,
+      "sha256": "3c681b0244d725e9899adc3d30cc9de991fc165f148fc87cab1ce21d22c3d057",
+      "country": "panama",
+      "contents": [
+        "packs/countries/panama"
+      ]
+    },
+    {
+      "id": "paraguay",
+      "name": "Paraguay (country)",
+      "description": "Data specific to Paraguay: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/paraguay.zip",
+      "bytes": 9743,
+      "sha256": "107e8096b18e1d8d0a3bf24f8d0a6b64e5e1096d50e029707c43153cfc3676af",
+      "country": "paraguay",
+      "contents": [
+        "packs/countries/paraguay"
+      ]
+    },
+    {
+      "id": "peru",
+      "name": "Peru (country)",
+      "description": "Data specific to Peru: RUC with its weighted mod-11 check digit, DNI, the 25 first-level units with INEI ubigeo and ISO codes, all 196 provinces, cities, banks with BCRP codes, the CCI account shape, universities, Liga 1 clubs, holidays and the MTC plate layouts.",
+      "file": "bundles/peru.zip",
+      "bytes": 15003,
+      "sha256": "f8ad3beded345f23feb161ec2f6fd34132c6209c3c01a6fd4031258d91982df4",
+      "country": "peru",
+      "contents": [
+        "packs/countries/peru"
+      ]
+    },
+    {
+      "id": "poland",
+      "name": "Poland (country)",
+      "description": "Data specific to Poland: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/poland.zip",
+      "bytes": 7584,
+      "sha256": "577ece1e159b27a0ca5b9ab93f01a3095d338cc8821c30daed77e729733c4f18",
+      "country": "poland",
+      "contents": [
+        "packs/countries/poland"
+      ]
+    },
+    {
+      "id": "portugal",
+      "name": "Portugal (country)",
+      "description": "Data specific to Portugal: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/portugal.zip",
+      "bytes": 6812,
+      "sha256": "7fe50ff2060d373177127f133fb62feedf8024da57b8ec8ab1b67d78c617da9a",
+      "country": "portugal",
+      "contents": [
+        "packs/countries/portugal"
+      ]
+    },
+    {
+      "id": "puerto_rico",
+      "name": "Puerto Rico (country)",
+      "description": "Data specific to Puerto Rico: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/puerto_rico.zip",
+      "bytes": 10366,
+      "sha256": "3b8ca98deb242f22dc6f020e8dd813da6aa3472eafa8be8a4c1ce041696cb9de",
+      "country": "puerto_rico",
+      "contents": [
+        "packs/countries/puerto_rico"
+      ]
+    },
+    {
+      "id": "qatar",
+      "name": "Qatar (country)",
+      "description": "Data specific to Qatar: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/qatar.zip",
+      "bytes": 3816,
+      "sha256": "4ee2925a6209451b3d2ea7b766e4276a9a2840afe3a0283141b02eca68832ac7",
+      "country": "qatar",
+      "contents": [
+        "packs/countries/qatar"
+      ]
+    },
+    {
+      "id": "russia",
+      "name": "Russia (country)",
+      "description": "Data specific to Russia regardless of language: cities and federal subjects, street names, universities, holidays, sports clubs. INN/SNILS/OGRN/KPP, bank BIK/account, license plate and phone are built-in checksum generators (russia.*).",
+      "file": "bundles/russia.zip",
+      "bytes": 10505,
+      "sha256": "de838cbe1a530d729d9f032c3ad818f93ce1eec63f614791c35cb000424087fb",
+      "country": "russia",
+      "contents": [
+        "packs/countries/russia"
+      ]
+    },
+    {
+      "id": "rwanda",
+      "name": "Rwanda (country)",
+      "description": "Data specific to Rwanda: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/rwanda.zip",
+      "bytes": 3061,
+      "sha256": "6bbecb6f1916216fac6aa6c712c418e29dd9ca22ecb1825010d96cf87ffe11de",
+      "country": "rwanda",
+      "contents": [
+        "packs/countries/rwanda"
+      ]
+    },
+    {
+      "id": "san_marino",
+      "name": "San Marino (country)",
+      "description": "Data specific to San Marino: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/san_marino.zip",
+      "bytes": 4216,
+      "sha256": "f4f53cc706272634f8e8f83d410f3490621c0a42ce7615f0cd95cc6d0f7a990f",
+      "country": "san_marino",
+      "contents": [
+        "packs/countries/san_marino"
+      ]
+    },
+    {
+      "id": "sao_tome_and_principe",
+      "name": "Sao Tome And Principe (country)",
+      "description": "Data specific to Sao Tome And Principe: docs, education, finance, geo, holiday, phone, sport.",
+      "file": "bundles/sao_tome_and_principe.zip",
+      "bytes": 4555,
+      "sha256": "012fc32e9e38ddadae162187ad1394a4376df8bae8bb0019bcd5b83db2b220ae",
+      "country": "sao_tome_and_principe",
+      "contents": [
+        "packs/countries/sao_tome_and_principe"
+      ]
+    },
+    {
+      "id": "saudi_arabia",
+      "name": "Saudi Arabia (country)",
+      "description": "Data specific to Saudi Arabia: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/saudi_arabia.zip",
+      "bytes": 6706,
+      "sha256": "44b01ca94899157d96482a5d6761cb0d8e8ec2fe15486da8d06bb382978562d6",
+      "country": "saudi_arabia",
+      "contents": [
+        "packs/countries/saudi_arabia"
+      ]
+    },
+    {
+      "id": "senegal",
+      "name": "Senegal (country)",
+      "description": "Data specific to Senegal: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/senegal.zip",
+      "bytes": 3338,
+      "sha256": "f7d45a5d8b6dfa9ffcebe9900b5aca1efe8b210dbd07d0dc1f6053c10f9d2f9f",
+      "country": "senegal",
+      "contents": [
+        "packs/countries/senegal"
+      ]
+    },
+    {
+      "id": "somalia",
+      "name": "Somalia (country)",
+      "description": "Data specific to Somalia: education, finance, geo, holiday, phone, sport.",
+      "file": "bundles/somalia.zip",
+      "bytes": 3173,
+      "sha256": "df1b8a6470d4ca08dd926de9809590489adf90fa676250194d201570e557a080",
+      "country": "somalia",
+      "contents": [
+        "packs/countries/somalia"
+      ]
+    },
+    {
+      "id": "south_africa",
+      "name": "South Africa (country)",
+      "description": "Data specific to South Africa: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/south_africa.zip",
+      "bytes": 7974,
+      "sha256": "1641fb9510bd5d53723ecdb9aae8ffe2282d5942cdab8ca077482656705ba0f7",
+      "country": "south_africa",
+      "contents": [
+        "packs/countries/south_africa"
+      ]
+    },
+    {
+      "id": "spain",
+      "name": "Spain (country)",
+      "description": "Data specific to Spain: DNI, NIE, CIF and NIF, the CCC and its ES IBAN, the social-security NUSS, the 17 autonomous communities and 50 provinces with their INE and ISO codes, municipalities, postal codes that encode the province, universities, LaLiga and Segunda clubs, holidays and the current plate format.",
+      "file": "bundles/spain.zip",
+      "bytes": 18725,
+      "sha256": "58d1a1c36d47382ef4647c6769956febf5d493579fc41c66a1b4750b3f68ecd2",
+      "country": "spain",
+      "contents": [
+        "packs/countries/spain"
+      ]
+    },
+    {
+      "id": "sudan",
+      "name": "Sudan (country)",
+      "description": "Data specific to Sudan: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/sudan.zip",
+      "bytes": 3989,
+      "sha256": "d3ff3623cee688d19a0ade1cd7890a14e5b400e8d5150e3c95400628dee76a08",
+      "country": "sudan",
+      "contents": [
+        "packs/countries/sudan"
+      ]
+    },
+    {
+      "id": "sweden",
+      "name": "Sweden (country)",
+      "description": "Data specific to Sweden: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/sweden.zip",
+      "bytes": 6816,
+      "sha256": "d4ed5d0fc24b7f12010ea920f2e84d803f5b7969f42f60cb5f3550bf6839b600",
+      "country": "sweden",
+      "contents": [
+        "packs/countries/sweden"
+      ]
+    },
+    {
+      "id": "switzerland",
+      "name": "Switzerland (country)",
+      "description": "Data specific to Switzerland: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/switzerland.zip",
+      "bytes": 6105,
+      "sha256": "7da750e228b42f5e8e46c60952509374c6be93e37f65f20689d9e825c54f3e14",
+      "country": "switzerland",
+      "contents": [
+        "packs/countries/switzerland"
+      ]
+    },
+    {
+      "id": "syria",
+      "name": "Syria (country)",
+      "description": "Data specific to Syria: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/syria.zip",
+      "bytes": 3217,
+      "sha256": "3e9c5fb1473db46038f180ab62f02f480a4f7e2c4d5e2ce3180874d50c22edf6",
+      "country": "syria",
+      "contents": [
+        "packs/countries/syria"
+      ]
+    },
+    {
+      "id": "tajikistan",
+      "name": "Tajikistan (country)",
+      "description": "Data specific to Tajikistan: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/tajikistan.zip",
+      "bytes": 4361,
+      "sha256": "6f95af6de5d3c1b15c6f603f966ef0556dfea90509daf8445c637d5ebd9a077a",
+      "country": "tajikistan",
+      "contents": [
+        "packs/countries/tajikistan"
+      ]
+    },
+    {
+      "id": "togo",
+      "name": "Togo (country)",
+      "description": "Data specific to Togo: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/togo.zip",
+      "bytes": 2990,
+      "sha256": "cabae4673e235d629ddf3d376dc750f2944aa3baa8f9b5bf541a0b777a69bcd2",
+      "country": "togo",
+      "contents": [
+        "packs/countries/togo"
+      ]
+    },
+    {
+      "id": "tunisia",
+      "name": "Tunisia (country)",
+      "description": "Data specific to Tunisia: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/tunisia.zip",
+      "bytes": 4187,
+      "sha256": "1581a8be04bb7550a1ddefe54db1b4651faa065c05bc92940bb29930b395595a",
+      "country": "tunisia",
+      "contents": [
+        "packs/countries/tunisia"
+      ]
+    },
+    {
+      "id": "uae",
+      "name": "Uae (country)",
+      "description": "Data specific to Uae: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/uae.zip",
+      "bytes": 4402,
+      "sha256": "70a89105dd75c10f2a797d72b7ade07d82e47f09a276df803def937107b94f13",
+      "country": "uae",
+      "contents": [
+        "packs/countries/uae"
+      ]
+    },
+    {
+      "id": "united_kingdom",
+      "name": "United Kingdom (country)",
+      "description": "Data specific to United Kingdom: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/united_kingdom.zip",
+      "bytes": 12867,
+      "sha256": "bf9a89c8a47470b8b0ad8f115c65bb08e55efa4783e99f274e7f1c2f81161d38",
+      "country": "united_kingdom",
+      "contents": [
+        "packs/countries/united_kingdom"
+      ]
+    },
+    {
+      "id": "uruguay",
+      "name": "Uruguay (country)",
+      "description": "Data specific to Uruguay: the cédula de identidad and RUT with their check digits, the 19 departments with ISO codes, cities, the whole banking sector with BCU numbers, universities, Primera División clubs, holidays and the Mercosur plate whose first letter is the registering department.",
+      "file": "bundles/uruguay.zip",
+      "bytes": 11663,
+      "sha256": "ae3bd24b03c94524e4b27ff30f94b52d6cdab8b2db70ae8cbf9df9429e2e2c3d",
+      "country": "uruguay",
+      "contents": [
+        "packs/countries/uruguay"
+      ]
+    },
+    {
+      "id": "usa",
+      "name": "Usa (country)",
+      "description": "Data specific to the USA regardless of the language it is written in: SSN/ITIN/EIN, ZIP codes, states, street names, ABA routing numbers, phone format, license plates.",
+      "file": "bundles/usa.zip",
+      "bytes": 19292,
+      "sha256": "ce4a83fec8077db671e203884f6a7cb6a272803b97a21664f314a4fc71559e1a",
+      "country": "usa",
+      "contents": [
+        "packs/countries/usa"
+      ]
+    },
+    {
+      "id": "vatican_city",
+      "name": "Vatican City (country)",
+      "description": "Data specific to Vatican City: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/vatican_city.zip",
+      "bytes": 3696,
+      "sha256": "41fc779324afa04b15c6937fd8e3bacac39f64c953d70ddc56c6a1aa3ce03b3c",
+      "country": "vatican_city",
+      "contents": [
+        "packs/countries/vatican_city"
+      ]
+    },
+    {
+      "id": "venezuela",
+      "name": "Venezuela (country)",
+      "description": "Data specific to Venezuela: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/venezuela.zip",
+      "bytes": 11405,
+      "sha256": "ed638e9812457ee404c99142c0747b1cd9da8bb9e0057426f83f8cffa1fb34e6",
+      "country": "venezuela",
+      "contents": [
+        "packs/countries/venezuela"
+      ]
+    },
+    {
+      "id": "yemen",
+      "name": "Yemen (country)",
+      "description": "Data specific to Yemen: docs, education, finance, geo, holiday, phone, sport.",
+      "file": "bundles/yemen.zip",
+      "bytes": 2987,
+      "sha256": "2f80a1835907cfb517e25e7a06ed98790111014a0fc1a64534e7e4a5f791396e",
+      "country": "yemen",
+      "contents": [
+        "packs/countries/yemen"
+      ]
+    }
+  ]
+}
