@@ -7,8 +7,8 @@
       "name": "Common (locale-agnostic)",
       "description": "Generators bound to neither a language nor a country: uuid, hashes, ISBN/ISSN, GTIN/UPC/EAN, card PANs, MRZ, IPv4/IPv6/MAC, semver, and more.",
       "file": "bundles/common.zip",
-      "bytes": 47209,
-      "sha256": "e8c605dcf5d41fa2f4415cb93f721f6903d2d05902aca8c73d99820a7734d646",
+      "bytes": 47616,
+      "sha256": "8fe060236d5480f4691b72d62c9ecb02e91ad8081980316092cc3f128dddb2e4",
       "contents": [
         "packs/common"
       ]
@@ -126,8 +126,8 @@
       "name": "Russian (language)",
       "description": "Content bound to the Russian language: given names, gendered surnames and patronymics, gender words, months and weekdays, colors, country names. Shared by every Russian-speaking locale.",
       "file": "bundles/ru.zip",
-      "bytes": 119126,
-      "sha256": "e389cf2e3b4fefee30c807c567c3e3807b06968f2e73f7cc2de2257922ffbfd6",
+      "bytes": 146862,
+      "sha256": "017c0146e181586ba9138512819c1fe99809e1696c9e2cc9019ebf41aa3ffa06",
       "locale": "ru",
       "contents": [
         "packs/ru"
@@ -271,8 +271,8 @@
       "name": "Belgium (country)",
       "description": "Data specific to Belgium: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
       "file": "bundles/belgium.zip",
-      "bytes": 7213,
-      "sha256": "e6d3c612edc1aa0e2f63857e4a1f16fd1196e99331e44df3d8fdf9abff21acba",
+      "bytes": 7217,
+      "sha256": "a28d04233a777250179a99adbb76a500a506315c9750084889810e11929ff16c",
       "country": "belgium",
       "regions": [
         "europe"
@@ -457,6 +457,25 @@
       ]
     },
     {
+      "id": "china",
+      "name": "China (country)",
+      "description": "Data specific to China: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/china.zip",
+      "bytes": 6756,
+      "sha256": "91855bc52f9d1d9d81c1668676448276f956dbace69a12c996c577abe6bb6012",
+      "country": "china",
+      "regions": [
+        "asia"
+      ],
+      "point": [
+        104.2,
+        35.9
+      ],
+      "contents": [
+        "packs/countries/china"
+      ]
+    },
+    {
       "id": "colombia",
       "name": "Colombia (country)",
       "description": "Data specific to Colombia: NIT with its mod-11 check digit, cédulas, the 32 departments and Bogotá with DANE and ISO codes, municipalities, postal codes drawn from the real department blocks, banks with their Banco de la República codes, universities, Categoría Primera A clubs, the holidays and which of them the Ley Emiliani moves to Monday, and the plate formats.",
@@ -518,8 +537,8 @@
       "name": "Costa Rica (country)",
       "description": "Data specific to Costa Rica: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
       "file": "bundles/costa_rica.zip",
-      "bytes": 11233,
-      "sha256": "3abb2eb8fd24e13d5afaeb6a099845b026dfaa73a27435d6a124ce5a868e1875",
+      "bytes": 11251,
+      "sha256": "ba05efcdbf8562b55cb56785f065592709ccf64b3965cef4455f123f68e9ea7c",
       "country": "costa_rica",
       "regions": [
         "north"
@@ -746,8 +765,8 @@
       "name": "France (country)",
       "description": "Data specific to France: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
       "file": "bundles/france.zip",
-      "bytes": 12293,
-      "sha256": "648ba41ec84f18d0d41580049057e83e34dfe94d003021eb62c7529f38e12a7e",
+      "bytes": 12304,
+      "sha256": "137264bff305b570c668f321cc61dbd22685c85d1e8afb68c0e7b83e0bf3d83c",
       "country": "france",
       "regions": [
         "europe"
@@ -822,8 +841,8 @@
       "name": "Guatemala (country)",
       "description": "Data specific to Guatemala: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
       "file": "bundles/guatemala.zip",
-      "bytes": 9859,
-      "sha256": "3fd7060faaa17f14c60f2c339a2b163b20fbbde717babc0263816ec79261e9d8",
+      "bytes": 9861,
+      "sha256": "488ca217d9865ec939e6d30af1bf04365ed5bf23027538fa73ff0de740bba57e",
       "country": "guatemala",
       "regions": [
         "north"
@@ -1221,8 +1240,8 @@
       "name": "Mexico (country)",
       "description": "Data specific to Mexico regardless of the language it is written in: CURP, RFC, NSS and clave de elector with real check digits, CLABE with its Banxico bank codes, states and their INEGI/ISO/RENAPO codes, municipalities, cities, postal codes, universities, holidays, sports teams, plates and the SAT tax regimes.",
       "file": "bundles/mexico.zip",
-      "bytes": 21182,
-      "sha256": "479e591a0609241877cfac725f6c69b2d9dd44bc8593d24bf83b02102a6ff094",
+      "bytes": 21212,
+      "sha256": "d9d1a7ab1f2b7e274d962c1f02840ec783e6ebf837e5f4c3c5e5335822fd09d3",
       "country": "mexico",
       "regions": [
         "north"
@@ -1297,8 +1316,8 @@
       "name": "Netherlands (country)",
       "description": "Data specific to Netherlands: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
       "file": "bundles/netherlands.zip",
-      "bytes": 6522,
-      "sha256": "d4f5fc66607f8d256c02756d336011a87d90e2dc96704181409eca734c34909a",
+      "bytes": 6687,
+      "sha256": "32d460d70c5810db86665d363be0e70246d5b72f26127fa4abf9ad59fad195bf",
       "country": "netherlands",
       "regions": [
         "europe"
@@ -1544,8 +1563,8 @@
       "name": "Russia (country)",
       "description": "Data specific to Russia regardless of language: cities and federal subjects, street names, universities, holidays, sports clubs. INN/SNILS/OGRN/KPP, bank BIK/account, license plate and phone are built-in checksum generators (russia.*).",
       "file": "bundles/russia.zip",
-      "bytes": 10505,
-      "sha256": "de838cbe1a530d729d9f032c3ad818f93ce1eec63f614791c35cb000424087fb",
+      "bytes": 51062,
+      "sha256": "1ef2bfe14122529192d63cfa3d430e29e8b6d67bfa58e759d143b05eb46b3f26",
       "country": "russia",
       "regions": [
         "europe",
@@ -1697,8 +1716,8 @@
       "name": "Spain (country)",
       "description": "Data specific to Spain: DNI, NIE, CIF and NIF, the CCC and its ES IBAN, the social-security NUSS, the 17 autonomous communities and 50 provinces with their INE and ISO codes, municipalities, postal codes that encode the province, universities, LaLiga and Segunda clubs, holidays and the current plate format.",
       "file": "bundles/spain.zip",
-      "bytes": 18725,
-      "sha256": "58d1a1c36d47382ef4647c6769956febf5d493579fc41c66a1b4750b3f68ecd2",
+      "bytes": 18721,
+      "sha256": "0b340d5732eb6c549d08ae7b96425ee5638bdbc419301a8829340751712d911b",
       "country": "spain",
       "regions": [
         "europe"
@@ -1849,8 +1868,8 @@
       "name": "Uae (country)",
       "description": "Data specific to Uae: docs, education, finance, geo, holiday, phone, sport, vehicle.",
       "file": "bundles/uae.zip",
-      "bytes": 4402,
-      "sha256": "70a89105dd75c10f2a797d72b7ade07d82e47f09a276df803def937107b94f13",
+      "bytes": 4395,
+      "sha256": "ccc23a66aec580dcb382d49cbe920cec326b370100339484b44736eaf39050c3",
       "country": "uae",
       "regions": [
         "asia"
@@ -1906,8 +1925,8 @@
       "name": "Usa (country)",
       "description": "Data specific to the USA regardless of the language it is written in: SSN/ITIN/EIN, ZIP codes, states, street names, ABA routing numbers, phone format, license plates.",
       "file": "bundles/usa.zip",
-      "bytes": 19292,
-      "sha256": "ce4a83fec8077db671e203884f6a7cb6a272803b97a21664f314a4fc71559e1a",
+      "bytes": 19275,
+      "sha256": "8b3fcb8f626963e8cdf7f69607c70e52f4c21827c9b551aadd1d877491fb201d",
       "country": "usa",
       "regions": [
         "north"
