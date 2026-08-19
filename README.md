@@ -20,10 +20,10 @@ tdcv2 pack list       # see the catalogue
 tdcv2 pack add common en usa
 ```
 
-The same three commands exist in all three implementations — Node, Python and
-Java — and write the same project file, so a pack downloaded by one is found by
-the others. The format is deliberately plain: a JSON index and zip archives,
-readable by anything.
+The same three commands exist in all five implementations — Node, Python, Java,
+Rust and C# — and write the same project file, so a pack downloaded by one is
+found by the others. The format is deliberately plain: a JSON index and zip
+archives, readable by anything.
 
 ## One bundle per axis
 
@@ -39,7 +39,7 @@ English, no country  =  common + en
 
 A single `en-us` bundle would make the second and third impossible.
 
-**108 bundles: `common`, 10 languages, 97 countries.** See
+**239 bundles: `common`, 86 languages, 152 countries.** See
 [`index.json`](./index.json) for the current list. It is generated from the packs
 themselves — never hand-edited — and every `bytes` and `sha256` in it is computed
 from the zip beside it.
@@ -55,7 +55,7 @@ Plain UTF-8 text: one value per line, one file per list, addressed by its path.
 small `---` header — a weighted list pairs each value with a count, so a run of
 30,000 rows contains as many Jameses as the census says, not approximately.
 
-No code, ever. That is what keeps the output identical across the three
+No code, ever. That is what keeps the output identical across the five
 implementations.
 
 ## Provenance and licence
@@ -64,7 +64,14 @@ The English and US material is built from public-domain government sources — U
 Census surname frequencies, Social Security given-name frequencies, USPS street
 and place data. The other languages and countries are hand-authored or generated
 for this project, with formats (national ID numbers, IBANs, postcodes) written to
-their published specifications and verified against real check-digit algorithms.
+their published specifications and verified against real check-digit algorithms —
+accepting numbers the issuing authority itself publishes, and rejecting the same
+numbers with one digit changed.
+
+Where a country publishes no algorithm, the pack computes none and says so in the
+file's own description rather than inventing one that would look verified and
+disagree with every real number. The same applies to a country with no IBAN: the
+absence is checked against the ISO 13616 registry before the file is left out.
 
 None of it is personal data. These are frequency lists and format rules; no file
 here describes a real person.
