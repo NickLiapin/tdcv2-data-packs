@@ -25,6 +25,26 @@ Rust and C# — and write the same project file, so a pack downloaded by one is
 found by the others. The format is deliberately plain: a JSON index and zip
 archives, readable by anything.
 
+To pick up a newer copy of a bundle you already have, add it again:
+`tdcv2 pack add usa` replaces the installed one, and a downloaded bundle always
+takes precedence over the starter packs built into the library.
+
+## Which versions read them
+
+Measured on 17 October 2026, for every bundle in this catalogue: each generator
+in it, drawn twice, in a project holding only `common`, `en` and that bundle,
+under releases 0.1.0, 0.2.0, 0.2.1, 0.3.0 and 0.3.5 and the current code.
+
+- **0.3.0 and newer** run every generator in every bundle.
+- **0.2.1** runs every bundle except the countries added after it was released;
+  it does not know those country names yet.
+- **0.2.0 and older** download and unpack every bundle, but cannot run the
+  generators that compute a check digit — they predate the `<use>` tag those
+  are written with. Plain lists still work. Upgrade to use the rest.
+
+That publish made no older release worse: every bundle one of them could run
+before it was replaced still runs after.
+
 ## One bundle per axis
 
 A bundle carries **a language, or a country, or neither** — never a mash. `en` is
@@ -39,7 +59,7 @@ English, no country  =  common + en
 
 A single `en-us` bundle would make the second and third impossible.
 
-**239 bundles: `common`, 86 languages, 152 countries.** See
+**294 bundles: `common`, 95 languages, 198 countries.** See
 [`index.json`](./index.json) for the current list. It is generated from the packs
 themselves — never hand-edited — and every `bytes` and `sha256` in it is computed
 from the zip beside it.

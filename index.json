@@ -7,8 +7,8 @@
       "name": "Common (locale-agnostic)",
       "description": "Generators bound to neither a language nor a country: uuid, hashes, ISBN/ISSN, GTIN/UPC/EAN, card PANs, MRZ, IPv4/IPv6/MAC, semver, and more.",
       "file": "bundles/common.zip",
-      "bytes": 47627,
-      "sha256": "87d7cd90ce35f33e958cd389f63edaa8d4a4bd2c86e0e819b302a2208ecfc415",
+      "bytes": 47781,
+      "sha256": "6bc413c811f4329370535ff2d4525d9a2980382d79557e21b2aeab828758a916",
       "contents": [
         "packs/common"
       ]
@@ -18,8 +18,8 @@
       "name": "Afrikaans (language)",
       "description": "Content bound to the Afrikaans language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
       "file": "bundles/af.zip",
-      "bytes": 145572,
-      "sha256": "d95fe5d5db4d206588e91613393a2bed13d42216ed8e3f5c0d5cf614496fd36f",
+      "bytes": 146474,
+      "sha256": "687a1536b31a40ef73e7f0ccbccc768a9a4e5eb9b52b2e1a48024b91e474e9ed",
       "locale": "af",
       "contents": [
         "packs/af"
@@ -30,8 +30,8 @@
       "name": "Arabic (language)",
       "description": "Content bound to the Arabic language rather than to any one country: address, airline, animal, book, clothing, color, commerce, company, date, education, event, finance, and 23 more.",
       "file": "bundles/ar.zip",
-      "bytes": 89302,
-      "sha256": "c571ce976979326b1f2897663b67dabfc3cb6c8927361721ba8f93786015386c",
+      "bytes": 90960,
+      "sha256": "ff4564b54db240dd2eb1a26d413ce82123a97521d5a8bf474e9a0960b8e99df4",
       "locale": "ar",
       "contents": [
         "packs/ar"
@@ -42,8 +42,8 @@
       "name": "Azerbaijani (language)",
       "description": "Content bound to the Azerbaijani language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/az.zip",
-      "bytes": 155705,
-      "sha256": "457dab920c7c5371e8fe92b12fc87d30ec45ead6ad1930a55bc51314844c0427",
+      "bytes": 156925,
+      "sha256": "5aaa1791cf43560f5f15879e4ba8f1c5057e79430efb7577f447bcb4d2fdba46",
       "locale": "az",
       "contents": [
         "packs/az"
@@ -54,8 +54,8 @@
       "name": "Belarusian (language)",
       "description": "Content bound to the Belarusian language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/be.zip",
-      "bytes": 192017,
-      "sha256": "7858b8049983806bb19c1f883452c8dabefeb2f960500f14e0ffca4361ee1842",
+      "bytes": 193569,
+      "sha256": "3db754480bf0c1a4785d07265d4707c9c605f98c0d103196084d0cde5db276ed",
       "locale": "be",
       "contents": [
         "packs/be"
@@ -66,11 +66,23 @@
       "name": "Bulgarian (language)",
       "description": "Content bound to the Bulgarian language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/bg.zip",
-      "bytes": 196556,
-      "sha256": "3cf0bb51e2f5d6f5f03bb538166dc6e4233c9342c06a5b4df1526f630822ea6c",
+      "bytes": 197936,
+      "sha256": "7f032d3125b822116d3c4c0bb78a5d037cd175dfddb92583bf47cbc2806114d6",
       "locale": "bg",
       "contents": [
         "packs/bg"
+      ]
+    },
+    {
+      "id": "bm",
+      "name": "Bambara (language)",
+      "description": "Content bound to the Bambara language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
+      "file": "bundles/bm.zip",
+      "bytes": 184142,
+      "sha256": "f328a6320ab54ab9b3ea75f0ffb71f72c3a011f3818ac88e17fb53103c24cc80",
+      "locale": "bm",
+      "contents": [
+        "packs/bm"
       ]
     },
     {
@@ -78,8 +90,8 @@
       "name": "Bengali (language)",
       "description": "Content bound to the Bengali language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
       "file": "bundles/bn.zip",
-      "bytes": 164293,
-      "sha256": "6542fb652c63f4a29aac8f57de402d784c360ba12d16d05e17b3d7fb86325086",
+      "bytes": 165765,
+      "sha256": "b29f4a85a81588738aeb32d13c642eed1e21911ea5a44a3c9d2f312159613aa5",
       "locale": "bn",
       "contents": [
         "packs/bn"
@@ -90,11 +102,23 @@
       "name": "Tibetan (language)",
       "description": "Content bound to the Tibetan language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/bo.zip",
-      "bytes": 122898,
-      "sha256": "8833dc1295283ec1c403ca137f86b45dddbddefa3d26f86911eef9654a701fb8",
+      "bytes": 124801,
+      "sha256": "f8f4c2f6ec8bad83934f9b28c49edfc162c6028de46557b40183890dfc389071",
       "locale": "bo",
       "contents": [
         "packs/bo"
+      ]
+    },
+    {
+      "id": "br",
+      "name": "Breton (language)",
+      "description": "Content bound to the Breton language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
+      "file": "bundles/br.zip",
+      "bytes": 244278,
+      "sha256": "e281b0c86c780992c6ca12603ce5fb6fcf816468c38172b590f0cfa30735701f",
+      "locale": "br",
+      "contents": [
+        "packs/br"
       ]
     },
     {
@@ -102,8 +126,8 @@
       "name": "Bosnian (language)",
       "description": "Content bound to the Bosnian language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/bs.zip",
-      "bytes": 188145,
-      "sha256": "5744173225c7895d022d279b02717751d7e526cc10482ba3407a6bace0074fc6",
+      "bytes": 189286,
+      "sha256": "0c70073d6476dbf3f4da81966c363434b6c9ed7df93258ecacad47506358f533",
       "locale": "bs",
       "contents": [
         "packs/bs"
@@ -114,8 +138,8 @@
       "name": "Catalan (language)",
       "description": "Content bound to the Catalan language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
       "file": "bundles/ca.zip",
-      "bytes": 141729,
-      "sha256": "07375b7eb8925bf58e06d33b9f518bd1267c30297d207dfe2e3ce196c00f4e67",
+      "bytes": 142615,
+      "sha256": "ca3c87716608baa152265a265bf8812b29acd976da4b26f9039d2d414681e673",
       "locale": "ca",
       "contents": [
         "packs/ca"
@@ -126,8 +150,8 @@
       "name": "Czech (language)",
       "description": "Content bound to the Czech language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
       "file": "bundles/cs.zip",
-      "bytes": 151620,
-      "sha256": "232b5ef456b8e79eb13834c3861d1b0ca71da2b4993d6360ca92ea7d4fa78ea9",
+      "bytes": 152705,
+      "sha256": "1066c8490d519f1c292e444f0cb0c846b17022ae9444dbd6faadd1bd22bd1ca0",
       "locale": "cs",
       "contents": [
         "packs/cs"
@@ -138,8 +162,8 @@
       "name": "Welsh (language)",
       "description": "Content bound to the Welsh language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
       "file": "bundles/cy.zip",
-      "bytes": 141191,
-      "sha256": "236d083f8a784d394129d71c18fdf66c768ee4ec5366a4464d386077236bf8e4",
+      "bytes": 142254,
+      "sha256": "f9249050224441de3875fe12c77229bba070f8b3b99cc51606aa0d8c0b29b972",
       "locale": "cy",
       "contents": [
         "packs/cy"
@@ -150,8 +174,8 @@
       "name": "Danish (language)",
       "description": "Content bound to the Danish language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 23 more.",
       "file": "bundles/da.zip",
-      "bytes": 116185,
-      "sha256": "292c395cdf793eee730ded489bf861100812ea416e1816c74a12d7936bec1710",
+      "bytes": 117249,
+      "sha256": "3fdeeea7d81d040e9fb35892cf1097247cf1238b75b88335bdbf9a29ad0f2e05",
       "locale": "da",
       "contents": [
         "packs/da"
@@ -162,8 +186,8 @@
       "name": "German (language)",
       "description": "Content bound to the German language rather than to any one country: address, airline, animal, book, clothing, color, commerce, company, date, education, event, finance, and 23 more.",
       "file": "bundles/de.zip",
-      "bytes": 138736,
-      "sha256": "e9e7b45ad8e4f52cab6dad799e9cb69a607c0ce6ff3f0e56476ccc5ff635a73c",
+      "bytes": 139834,
+      "sha256": "f8e91684c35b10b8784d3e2f8fd03ce652db252e2167546fa32fb217a1d13161",
       "locale": "de",
       "contents": [
         "packs/de"
@@ -174,8 +198,8 @@
       "name": "Dhivehi (language)",
       "description": "Content bound to the Dhivehi language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/dv.zip",
-      "bytes": 164066,
-      "sha256": "9114fd0b43ba45eedd682701a41d1cdea62de4af018b4a99b5a3a934c41ba430",
+      "bytes": 165726,
+      "sha256": "c1ba85c51d9972ee6da3a355d681c70f7e40e6f63d74b20140682233e0f9f172",
       "locale": "dv",
       "contents": [
         "packs/dv"
@@ -186,8 +210,8 @@
       "name": "Greek (language)",
       "description": "Content bound to the Greek language rather than to any one country: address, airline, animal, book, clothing, color, commerce, company, date, education, event, finance, and 23 more.",
       "file": "bundles/el.zip",
-      "bytes": 120940,
-      "sha256": "8cf64cfef408aba71f6b0ea8cc33806d8fbfbb47cc56420870dc0a5fd9713dec",
+      "bytes": 122285,
+      "sha256": "c416424a3ba8e127c1fb977038c65eae18c466f35072ddde8771c0f3027d3637",
       "locale": "el",
       "contents": [
         "packs/el"
@@ -198,8 +222,8 @@
       "name": "English (language)",
       "description": "Content bound to the English language, not to any one country: given names and surnames (US-frequency-weighted), gender words, country names. Shared by every English-speaking locale (USA, UK, Canada, Australia, …).",
       "file": "bundles/en.zip",
-      "bytes": 148898,
-      "sha256": "c189b43a03a9f49e0ef788176da6fe6da337b865141ec786f967152f42580580",
+      "bytes": 149882,
+      "sha256": "7502abf3cc7796e52fc4ab1d3694654c73f65813ed4d4ee7842231193d2f5f58",
       "locale": "en",
       "contents": [
         "packs/en"
@@ -210,8 +234,8 @@
       "name": "Spanish (language)",
       "description": "Content bound to the Spanish language, not to any one country: given names and the paternal+maternal surname pair, address wording, company legal forms, commerce and everyday vocabulary. Shared by every Spanish-speaking locale (Mexico, Argentina, Spain, Colombia, …).",
       "file": "bundles/es.zip",
-      "bytes": 137424,
-      "sha256": "2899f576fb549d29db371ae4a007fe0dd7f1f21a73a01966be4b2b1c47533190",
+      "bytes": 138446,
+      "sha256": "2f3ec360597e66d51a778c2880c291c6ebd7c9fcd1ad436fdf8ff1a8da91adca",
       "locale": "es",
       "contents": [
         "packs/es"
@@ -222,8 +246,8 @@
       "name": "Estonian (language)",
       "description": "Content bound to the Estonian language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
       "file": "bundles/et.zip",
-      "bytes": 146779,
-      "sha256": "d78308406fb2493ac706751eb61dafa98db853cf050bd7494c51d2b8bba4f063",
+      "bytes": 147873,
+      "sha256": "1f2985afd1682fd385f8e8161adcb550ba1166cdcc9e235e6541ffa50781ddc7",
       "locale": "et",
       "contents": [
         "packs/et"
@@ -234,8 +258,8 @@
       "name": "Basque (language)",
       "description": "Content bound to the Basque language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/eu.zip",
-      "bytes": 131233,
-      "sha256": "d10cb615ec47ca994b942eb01b556a499d4f2f6e345fcd06188af2a5ce16f981",
+      "bytes": 132381,
+      "sha256": "e0b17b3a4fabdd303072ef6f029b85336bdfbb268f3696daad889cb0b845f384",
       "locale": "eu",
       "contents": [
         "packs/eu"
@@ -246,8 +270,8 @@
       "name": "Persian (language)",
       "description": "Content bound to the Persian language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
       "file": "bundles/fa.zip",
-      "bytes": 172758,
-      "sha256": "54077c06dfdfe04bc26ec8b57f6b55ef43d1abe14b7f080523c2f684e9dd4bf7",
+      "bytes": 173805,
+      "sha256": "d66976c8a5eb3cc4a2c8452ed6ae47dcfba418489c48fc7d98108768826bd4bd",
       "locale": "fa",
       "contents": [
         "packs/fa"
@@ -258,8 +282,8 @@
       "name": "Finnish (language)",
       "description": "Content bound to the Finnish language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
       "file": "bundles/fi.zip",
-      "bytes": 164872,
-      "sha256": "6e69fe01bd2c7b267cba157fe59883346154631542b1cb87402834624b452298",
+      "bytes": 165989,
+      "sha256": "06f74417c0a4caf24a8a3de138b65f69cbbd26d522a7cd39d8a36eda5e231701",
       "locale": "fi",
       "contents": [
         "packs/fi"
@@ -270,8 +294,8 @@
       "name": "Filipino (language)",
       "description": "Content bound to the Filipino language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
       "file": "bundles/fil.zip",
-      "bytes": 177047,
-      "sha256": "666b8ee9421329e035e8729041c83efd42ab81416f5177a68eb21d5004b4484b",
+      "bytes": 178364,
+      "sha256": "a61c784df723071c00322cf4be383e836c45e3187c8121bcdfddc7991da21980",
       "locale": "fil",
       "contents": [
         "packs/fil"
@@ -282,8 +306,8 @@
       "name": "Faroese (language)",
       "description": "Content bound to the Faroese language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/fo.zip",
-      "bytes": 141291,
-      "sha256": "bccc5d5834270e7f829f5fa6f1f429ea12841379b795fb2558ec9c389692fd21",
+      "bytes": 142461,
+      "sha256": "d1beb2d2357648fce03ddaf1f9d223dd58174660260e96f6d55727405a0e8d44",
       "locale": "fo",
       "contents": [
         "packs/fo"
@@ -294,11 +318,23 @@
       "name": "French (language)",
       "description": "Content bound to the French language rather than to any one country: address, airline, animal, book, clothing, color, commerce, company, date, education, event, finance, and 23 more.",
       "file": "bundles/fr.zip",
-      "bytes": 131022,
-      "sha256": "ccfd6f8b2800d1ff582270a80c086626c30c24850b1a20d88741d83c2e57c1da",
+      "bytes": 132616,
+      "sha256": "17482dc4380a8bd0c8a08d24f9f8cde2a190ebc110c0dbfcd71dbfe5ccf15bc1",
       "locale": "fr",
       "contents": [
         "packs/fr"
+      ]
+    },
+    {
+      "id": "fy",
+      "name": "Western Frisian (language)",
+      "description": "Content bound to the Western Frisian language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
+      "file": "bundles/fy.zip",
+      "bytes": 225201,
+      "sha256": "d62814b93513c4ab2bbb5b8ae3e55d69d724fcda008ba774814cd2dcf70efb7e",
+      "locale": "fy",
+      "contents": [
+        "packs/fy"
       ]
     },
     {
@@ -306,8 +342,8 @@
       "name": "Irish (language)",
       "description": "Content bound to the Irish language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
       "file": "bundles/ga.zip",
-      "bytes": 131011,
-      "sha256": "993dc8f0b8d80fe79ef799f2ffe568e24a6bd2bca393cec27e95bdce7e465e24",
+      "bytes": 132198,
+      "sha256": "804e3a0128bfbb498786e36c238854b0398cf1dcf55fa40cf24ba538f211ee46",
       "locale": "ga",
       "contents": [
         "packs/ga"
@@ -318,8 +354,8 @@
       "name": "Scottish Gaelic (language)",
       "description": "Content bound to the Scottish Gaelic language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
       "file": "bundles/gd.zip",
-      "bytes": 151618,
-      "sha256": "13da2af60676c4fa38aa9ebf2999a3e413523bd7e4091363349e8a1db0b828ee",
+      "bytes": 152900,
+      "sha256": "e79571d987c56dddb235e938574a50855c9607b810964cfb9f149b308b6f82bb",
       "locale": "gd",
       "contents": [
         "packs/gd"
@@ -330,8 +366,8 @@
       "name": "Galician (language)",
       "description": "Content bound to the Galician language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
       "file": "bundles/gl.zip",
-      "bytes": 155549,
-      "sha256": "57209b9cf0c7f6bcc29335509118c5fe5543e962e250b53b385330f4314e5806",
+      "bytes": 156608,
+      "sha256": "b6d4ffa2bf1490d31e9d9015d460105760aee4f1c1cf7ce56521c2cc805536e2",
       "locale": "gl",
       "contents": [
         "packs/gl"
@@ -342,8 +378,8 @@
       "name": "Gujarati (language)",
       "description": "Content bound to the Gujarati language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/gu.zip",
-      "bytes": 237423,
-      "sha256": "331834b8b9e0ef204be4c7530aae9d4da21c95841fcf11cfd5a19eb395be4896",
+      "bytes": 239038,
+      "sha256": "3a64eb4b89ca082bfca614a3e87991fa639300acef73e12521654772eafb6492",
       "locale": "gu",
       "contents": [
         "packs/gu"
@@ -354,8 +390,8 @@
       "name": "Hebrew (language)",
       "description": "Content bound to the Hebrew language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
       "file": "bundles/he.zip",
-      "bytes": 160482,
-      "sha256": "e8d0806243aab1d256dc5f83e8a4ab0f7872fcc67d70768535cfe44d25f0f69a",
+      "bytes": 161600,
+      "sha256": "5735ffd3d3fe94dd17b5509bdcd0faed8472518f6dfe693e22f34fe33614cc46",
       "locale": "he",
       "contents": [
         "packs/he"
@@ -366,8 +402,8 @@
       "name": "Hindi (language)",
       "description": "Content bound to the Hindi language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
       "file": "bundles/hi.zip",
-      "bytes": 146380,
-      "sha256": "2ea4f6f97e22bda9b0ba57bfec18f62201fd4341316a9511cd804d79b8d088ee",
+      "bytes": 147577,
+      "sha256": "cd8e6660d1aae5c09c73bca5036d7fb21ff826952c61f6422b3d0e5f0fc6c330",
       "locale": "hi",
       "contents": [
         "packs/hi"
@@ -378,8 +414,8 @@
       "name": "Croatian (language)",
       "description": "Content bound to the Croatian language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/hr.zip",
-      "bytes": 139800,
-      "sha256": "6cf8b1f3febe000efa2a1aa802f6675a9e8276b4e65551ee32fbdd32f47f2290",
+      "bytes": 140924,
+      "sha256": "a9b991c09e9017ca329fe58b5cfabbb143bfdfa201c4bf9efa54dfbd76dce728",
       "locale": "hr",
       "contents": [
         "packs/hr"
@@ -390,8 +426,8 @@
       "name": "Hungarian (language)",
       "description": "Content bound to the Hungarian language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
       "file": "bundles/hu.zip",
-      "bytes": 153070,
-      "sha256": "c969188a2408a48ebc6548e0c1835da9b3c7ae81ec428a20bacddee00f8385ad",
+      "bytes": 154126,
+      "sha256": "a21d92cde2388a0d812a172b70429439ded2f732ec10ee9588c0bdc0be178eba",
       "locale": "hu",
       "contents": [
         "packs/hu"
@@ -402,8 +438,8 @@
       "name": "Armenian (language)",
       "description": "Content bound to the Armenian language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/hy-am.zip",
-      "bytes": 181990,
-      "sha256": "f3e2dc2c2b232fdf359cc250e3e0996dc4aa4b8b68b6e01e884e4c0dfdcbaa5f",
+      "bytes": 183320,
+      "sha256": "a2b21f5cddeb9d4c7ec66739f3970546782a454a2152a47efb769013e44866b5",
       "locale": "hy-am",
       "contents": [
         "packs/hy-am"
@@ -414,8 +450,8 @@
       "name": "Indonesian (language)",
       "description": "Content bound to the Indonesian language rather than to any one country: address, airline, animal, book, clothing, color, commerce, company, date, education, event, finance, and 23 more.",
       "file": "bundles/id.zip",
-      "bytes": 90566,
-      "sha256": "f30a02d9ed937f4d47cd3e979eb257368750fd1737281ebc6d3e770ea7c23f0c",
+      "bytes": 91546,
+      "sha256": "6cde3f645e9995a173cfd380aa9e83cd6dd6c087d858bb484e5e8d76536a36fb",
       "locale": "id",
       "contents": [
         "packs/id"
@@ -426,8 +462,8 @@
       "name": "Icelandic (language)",
       "description": "Content bound to the Icelandic language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
       "file": "bundles/is.zip",
-      "bytes": 135668,
-      "sha256": "a41a201ef885d6f3749a7add9c19e226eaec2a597bfda8198de1fe3749da402f",
+      "bytes": 136735,
+      "sha256": "09fe312d668f4e7fefcb4bd66e7be23a9d4b4089c256f04d0fb1161d3f0b98e4",
       "locale": "is",
       "contents": [
         "packs/is"
@@ -438,8 +474,8 @@
       "name": "Italian (language)",
       "description": "Content bound to the Italian language rather than to any one country: address, airline, animal, book, clothing, color, commerce, company, date, education, event, finance, and 23 more.",
       "file": "bundles/it.zip",
-      "bytes": 135573,
-      "sha256": "3080af35b6c1598ffc7f9a1b971b34e33a6ad30dcdd56a1f412314a624637b29",
+      "bytes": 136595,
+      "sha256": "aae0b9452c07cb0945664570cb84ae643a2dad5791045abe3970b87031716217",
       "locale": "it",
       "contents": [
         "packs/it"
@@ -450,8 +486,8 @@
       "name": "Japanese (language)",
       "description": "Content bound to the Japanese language rather than to any one country: address, airline, animal, book, clothing, color, commerce, company, date, education, event, finance, and 23 more.",
       "file": "bundles/ja.zip",
-      "bytes": 145925,
-      "sha256": "315850204b1205a0f260dcd0a436c9aa5c1c2e1ebeede6e5cef5c506a2669d6e",
+      "bytes": 146939,
+      "sha256": "c00866e820fefcfc1c1890081a0a9b350b753a7ba6363d1d0b04c1b13c16df3a",
       "locale": "ja",
       "contents": [
         "packs/ja"
@@ -462,8 +498,8 @@
       "name": "Javanese (language)",
       "description": "Content bound to the Javanese language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/jv.zip",
-      "bytes": 173392,
-      "sha256": "7f809930d1654e827570fc251662395d57a2cf58549a21c15c7ecba326e55356",
+      "bytes": 202429,
+      "sha256": "8af9be4bc918f2b8a328bc84265c09b3386025b1a0722ae8bf7ef98380bbb940",
       "locale": "jv",
       "contents": [
         "packs/jv"
@@ -474,8 +510,8 @@
       "name": "Georgian (language)",
       "description": "Content bound to the Georgian language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/ka.zip",
-      "bytes": 162277,
-      "sha256": "8d7aadb7cc0e9f5e5487e07433c02c6bf6a3b72bf86774dd6b65cc58a5c65abe",
+      "bytes": 163707,
+      "sha256": "ef043a6e57fb024a832146797192d80804f2bf4e7771853284eb486600ec0170",
       "locale": "ka",
       "contents": [
         "packs/ka"
@@ -486,8 +522,8 @@
       "name": "Kazakh (language)",
       "description": "Content bound to the Kazakh language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/kk.zip",
-      "bytes": 203167,
-      "sha256": "ece5847dbe6d9d8c7287fe52c0fbb081f4b18304445fd84aad6f2efe61f2ee0b",
+      "bytes": 204565,
+      "sha256": "988b4cc2ebb16a475003d4c33978867963cfbd6e5001a273bedf97e413d5c518",
       "locale": "kk",
       "contents": [
         "packs/kk"
@@ -498,8 +534,8 @@
       "name": "Khmer (language)",
       "description": "Content bound to the Khmer language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/km.zip",
-      "bytes": 176222,
-      "sha256": "f6398adb7df7e079a4a03ee66f599c1e3749186fd6da0b9a9480a3a816a17add",
+      "bytes": 178015,
+      "sha256": "acdfe6f452f7f7efccaf5b6b0a2aa493d3b34cc27b4809a5774fa3232406c5a1",
       "locale": "km",
       "contents": [
         "packs/km"
@@ -510,8 +546,8 @@
       "name": "Kannada (language)",
       "description": "Content bound to the Kannada language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/kn.zip",
-      "bytes": 155192,
-      "sha256": "5c814eea1c9ddc04551f33535d931806932dbb28af480762ffadbb4b6371adda",
+      "bytes": 156612,
+      "sha256": "402c1360d552039cd92f932fb8a0e28bb6ead1add60e6f5d3079dc876cca2da4",
       "locale": "kn",
       "contents": [
         "packs/kn"
@@ -522,8 +558,8 @@
       "name": "Korean (language)",
       "description": "Content bound to the Korean language rather than to any one country: address, airline, animal, book, clothing, color, commerce, company, date, education, event, finance, and 23 more.",
       "file": "bundles/ko.zip",
-      "bytes": 99285,
-      "sha256": "24e65033bd714b0347373b694acaca07b99248a2392000862c7baff3476ba478",
+      "bytes": 100266,
+      "sha256": "80dda6a4468783c6afe2edc94ae7cb5c13fc35d2e8087d370f9602dd867ac1fb",
       "locale": "ko",
       "contents": [
         "packs/ko"
@@ -534,8 +570,8 @@
       "name": "Kurdish (language)",
       "description": "Content bound to the Kurdish language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/ku.zip",
-      "bytes": 147263,
-      "sha256": "1c5c0460feadbb0efe1cc5549842de98fd590c379d05e762fe4360fb88e5cf61",
+      "bytes": 148047,
+      "sha256": "25bf23a89c88224ebb0c62df5fb6ca7c432d95f567c2a4ce7c273df8701bc8a7",
       "locale": "ku",
       "contents": [
         "packs/ku"
@@ -546,8 +582,8 @@
       "name": "Kyrgyz (language)",
       "description": "Content bound to the Kyrgyz language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/ky.zip",
-      "bytes": 162778,
-      "sha256": "26cbc0df9e35ccd1d45b1c27f854b88962cc20dc12ad27c9f5a905f87a187b9f",
+      "bytes": 164376,
+      "sha256": "3071bda408e68f1a2ab2e6060cd144915640049b2b92aa323de722f1aa77b996",
       "locale": "ky",
       "contents": [
         "packs/ky"
@@ -558,8 +594,8 @@
       "name": "Luxembourgish (language)",
       "description": "Content bound to the Luxembourgish language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/lb.zip",
-      "bytes": 178208,
-      "sha256": "f192079fc1bf5776dc9b646fa18a0bd6fa0d47305ff9ebd7829c63de152c4349",
+      "bytes": 179493,
+      "sha256": "b5e0b742ab13bb245cd5adc8f1c01985ae99aac709b65b085ac2db671eed88ce",
       "locale": "lb",
       "contents": [
         "packs/lb"
@@ -570,8 +606,8 @@
       "name": "Lao (language)",
       "description": "Content bound to the Lao language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/lo.zip",
-      "bytes": 175741,
-      "sha256": "a01e7dffbe8903131c370dd9adf6e634b9be271a1712a99ea695bc241fcb2354",
+      "bytes": 177427,
+      "sha256": "bc4ea683d721e01b36a001ea378250b37fd982164bb4a3d9f44f1f138d1166a5",
       "locale": "lo",
       "contents": [
         "packs/lo"
@@ -582,8 +618,8 @@
       "name": "Lithuanian (language)",
       "description": "Content bound to the Lithuanian language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/lt.zip",
-      "bytes": 148839,
-      "sha256": "491a429919e14732f527191ea56d62c6dbbd26ab8780ffe080a60db88dae7027",
+      "bytes": 149929,
+      "sha256": "c8540596a4a6798d6107a0c82ae20076c0ce78ddc84406b3ba4bd13a3f85c9b9",
       "locale": "lt",
       "contents": [
         "packs/lt"
@@ -594,11 +630,23 @@
       "name": "Latvian (language)",
       "description": "Content bound to the Latvian language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/lv.zip",
-      "bytes": 151976,
-      "sha256": "a5c2249bcb12b33a2eeaacf4cdcf5ae9e4ec5317e56d988cf72af939a96b8d2a",
+      "bytes": 153041,
+      "sha256": "f1f2df7a586abfd1f21d4529711a0f95516788efa1ed9dc023640f6336c7aeb4",
       "locale": "lv",
       "contents": [
         "packs/lv"
+      ]
+    },
+    {
+      "id": "me",
+      "name": "Montenegrin (language)",
+      "description": "Content bound to the Montenegrin language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
+      "file": "bundles/me.zip",
+      "bytes": 207082,
+      "sha256": "29842d5169a7e1e2fef84cc4c17accf13486b564eaf2b518ab06be6897480060",
+      "locale": "me",
+      "contents": [
+        "packs/me"
       ]
     },
     {
@@ -606,8 +654,8 @@
       "name": "Māori (language)",
       "description": "Content bound to the Māori language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
       "file": "bundles/mi.zip",
-      "bytes": 215628,
-      "sha256": "359b85a8284a61b05e41b16fd8550bc11c7b95db57aa219dcc82b7cda7fc02aa",
+      "bytes": 216945,
+      "sha256": "cdbfd64207771e4b263097d6d2cf13279522d3a883a03e6a6380f56d79292487",
       "locale": "mi",
       "contents": [
         "packs/mi"
@@ -618,8 +666,8 @@
       "name": "Macedonian (language)",
       "description": "Content bound to the Macedonian language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/mk.zip",
-      "bytes": 196524,
-      "sha256": "4ae800f93060f7097a3a0a04282378c0c163596ba94209f3a608c7062c30f0d0",
+      "bytes": 197844,
+      "sha256": "0ff5be6ebe676315f0aa001295eef445cfdcc8e2102bca3846a99656fa4293c3",
       "locale": "mk",
       "contents": [
         "packs/mk"
@@ -630,8 +678,8 @@
       "name": "Malayalam (language)",
       "description": "Content bound to the Malayalam language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/ml.zip",
-      "bytes": 194451,
-      "sha256": "69eed08e6ff9dfc92810cd5ed335fa571a652ac211ba958d3fa6b5cb2b67e10f",
+      "bytes": 195984,
+      "sha256": "e3d0e85575c21cbc7e55b4ff1800fca8bdf895517c27a7da8b673bc7f326950a",
       "locale": "ml",
       "contents": [
         "packs/ml"
@@ -642,8 +690,8 @@
       "name": "Mongolian (language)",
       "description": "Content bound to the Mongolian language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/mn.zip",
-      "bytes": 215822,
-      "sha256": "adc9f18f24544ab42597f8c1703b5a98c302bd84489f11b804c1e17137486c4c",
+      "bytes": 217077,
+      "sha256": "ad8e9af12f6c1bd9152625e21afdbe64edf88816f56943026d28e8f94a5496c1",
       "locale": "mn",
       "contents": [
         "packs/mn"
@@ -654,8 +702,8 @@
       "name": "Marathi (language)",
       "description": "Content bound to the Marathi language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/mr.zip",
-      "bytes": 218071,
-      "sha256": "ab048800fa0654cd7b6a2da619b9e6418b7344a9ceeae61696147ea839a1d56b",
+      "bytes": 219520,
+      "sha256": "41f7de271a3430f2e660b94a3d16521e0e46de3b617f5bfc878923911088a8f5",
       "locale": "mr",
       "contents": [
         "packs/mr"
@@ -666,8 +714,8 @@
       "name": "Malay (language)",
       "description": "Content bound to the Malay language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/ms.zip",
-      "bytes": 182579,
-      "sha256": "2cc01dc8c79d8a3cd84a4cf1c8931cb5a28bb639dff9e7c26fbd5bbfd21d1a2c",
+      "bytes": 183536,
+      "sha256": "54deaad055e195dbeabed859b43c0bce9f0867d525161c916dfca81b338872e9",
       "locale": "ms",
       "contents": [
         "packs/ms"
@@ -678,8 +726,8 @@
       "name": "Maltese (language)",
       "description": "Content bound to the Maltese language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/mt.zip",
-      "bytes": 140969,
-      "sha256": "4107bc0a04d29d1347a2b9523c3db194f396fb1548b8a5607e97b959024e2282",
+      "bytes": 142034,
+      "sha256": "a747a6974326f44dcf4b5f19022e4f1ba1ed6d0cd3f9780ae5978bc9c9fb085f",
       "locale": "mt",
       "contents": [
         "packs/mt"
@@ -690,8 +738,8 @@
       "name": "Burmese (language)",
       "description": "Content bound to the Burmese language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/my.zip",
-      "bytes": 237734,
-      "sha256": "620e63538bc152a26f85f907844416ec474e9704e5e4c34e6bba157d9cbeb084",
+      "bytes": 239086,
+      "sha256": "504e144b241ad0b5f1bbc37e043e71cfafd1a0423a2c64483f84007ac6e38b7b",
       "locale": "my",
       "contents": [
         "packs/my"
@@ -702,8 +750,8 @@
       "name": "Norwegian Bokmål (language)",
       "description": "Content bound to the Norwegian Bokmål language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
       "file": "bundles/nb.zip",
-      "bytes": 130963,
-      "sha256": "5b287ff2e35639c37e4396e12d608f4956d13ab7ebea9c1a703e66b9bb95cce3",
+      "bytes": 132073,
+      "sha256": "3e095f2a8d80d5d5ec3d86782371e9edf546b59e077f7f7ac65f8bdab332141c",
       "locale": "nb",
       "contents": [
         "packs/nb"
@@ -714,8 +762,8 @@
       "name": "Nepali (language)",
       "description": "Content bound to the Nepali language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/ne.zip",
-      "bytes": 251789,
-      "sha256": "cedf4581df6c37abb7cd2195a14b9b57e7dd4fee2ac00d7937fd80937c0e1656",
+      "bytes": 253515,
+      "sha256": "c42df7d5edd6d1732b16d099d93088db16a32301f9cba62eb014a509e4883ab6",
       "locale": "ne",
       "contents": [
         "packs/ne"
@@ -726,8 +774,8 @@
       "name": "Dutch (language)",
       "description": "Content bound to the Dutch language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
       "file": "bundles/nl.zip",
-      "bytes": 166017,
-      "sha256": "55b8d0d690f705b494b134f102fdf4f98e67e1e710cc15d771d48b4ff8bc8b97",
+      "bytes": 167041,
+      "sha256": "ccb563a8d2b4b9534b336e730a2729f268be78514a714f2b7ca72716e7aeeb83",
       "locale": "nl",
       "contents": [
         "packs/nl"
@@ -738,8 +786,8 @@
       "name": "Norwegian Nynorsk (language)",
       "description": "Content bound to the Norwegian Nynorsk language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/nn.zip",
-      "bytes": 147873,
-      "sha256": "062d9cf07761a43c0f7f00bdc5ecf86372017a0b5aaac856d88ddaa7d7683d4a",
+      "bytes": 148997,
+      "sha256": "1e66a5fc7156d9045797c3120a9633b7f5574854488e491b8c92edeaef554ce0",
       "locale": "nn",
       "contents": [
         "packs/nn"
@@ -750,8 +798,8 @@
       "name": "Punjabi (language)",
       "description": "Content bound to the Punjabi language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/pa-in.zip",
-      "bytes": 167646,
-      "sha256": "ee9a14534ea9fa188bbb83000e300de52a7e8c534b66c5adedba14948a86adb1",
+      "bytes": 169335,
+      "sha256": "f74c6318654f79fd8bcbc5a14c2004002c455970298353d294de054aac2505a7",
       "locale": "pa-in",
       "contents": [
         "packs/pa-in"
@@ -762,8 +810,8 @@
       "name": "Polish (language)",
       "description": "Content bound to the Polish language rather than to any one country: address, airline, animal, book, clothing, color, commerce, company, date, education, event, finance, and 23 more.",
       "file": "bundles/pl.zip",
-      "bytes": 143118,
-      "sha256": "4bc33e8cdca38f37a3d84098fae52244d3ee32a5d64c7236599ed638d9de9458",
+      "bytes": 144241,
+      "sha256": "d08e1244ca41f579eda36d68ee0d66aa3fc4f4eec57b70295a1a3e0d0be0e6d6",
       "locale": "pl",
       "contents": [
         "packs/pl"
@@ -774,8 +822,8 @@
       "name": "Portuguese (language)",
       "description": "Content bound to the Portuguese language rather than to any one country: address, airline, animal, book, clothing, color, commerce, company, date, education, event, finance, and 23 more.",
       "file": "bundles/pt.zip",
-      "bytes": 139026,
-      "sha256": "e01b830d5a0736e2208510f57dca730844b1d031513bbf932b26339ea3d04639",
+      "bytes": 140092,
+      "sha256": "70b8cf108a64afccc824b8152003f729a9fd870367c8cba2019e15c02f449cf4",
       "locale": "pt",
       "contents": [
         "packs/pt"
@@ -786,8 +834,8 @@
       "name": "Romanian (language)",
       "description": "Content bound to the Romanian language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/ro.zip",
-      "bytes": 186456,
-      "sha256": "900697fbd69b1fbeb70853603049ce602b8329f510fe60e9ac2dcf33669d828f",
+      "bytes": 187246,
+      "sha256": "f70c14dad0654ae12f8e12742686795f2d9aa1abbfb5c7474d2d2c06fa0bc2fc",
       "locale": "ro",
       "contents": [
         "packs/ro"
@@ -798,11 +846,23 @@
       "name": "Russian (language)",
       "description": "Content bound to the Russian language: given names, gendered surnames and patronymics, gender words, months and weekdays, colors, country names. Shared by every Russian-speaking locale.",
       "file": "bundles/ru.zip",
-      "bytes": 146918,
-      "sha256": "58a11f415553c1be1628cac5c598720598ae0c73dc93b3927850dea921d95685",
+      "bytes": 148998,
+      "sha256": "d41699d4cf09c1c6fe7b9450ee86bec1b6b8221ebe7c6e5a66cecdc5de8b9356",
       "locale": "ru",
       "contents": [
         "packs/ru"
+      ]
+    },
+    {
+      "id": "sd",
+      "name": "Sindhi (language)",
+      "description": "Content bound to the Sindhi language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
+      "file": "bundles/sd.zip",
+      "bytes": 175211,
+      "sha256": "e17896a23e910e63ef3aaedbb14f986ca834e5d3df57cce8917649412d7ecadb",
+      "locale": "sd",
+      "contents": [
+        "packs/sd"
       ]
     },
     {
@@ -810,8 +870,8 @@
       "name": "Sinhala (language)",
       "description": "Content bound to the Sinhala language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/si.zip",
-      "bytes": 184637,
-      "sha256": "3372719c21de958528e41db44a93b1e527933fd9a54f29a61306033884ecaa87",
+      "bytes": 186633,
+      "sha256": "8c5535447f18ff3dd198f6ebe3766ba91065a2a0032b0383a7176f6679f8b413",
       "locale": "si",
       "contents": [
         "packs/si"
@@ -822,8 +882,8 @@
       "name": "Slovak (language)",
       "description": "Content bound to the Slovak language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
       "file": "bundles/sk.zip",
-      "bytes": 120424,
-      "sha256": "07285eab83ed2a2bd673cbc554ce49f0a804763e9a70d146fb4ffeef227195c4",
+      "bytes": 121546,
+      "sha256": "bf816ffd3afb833c5bfa951617222d304028fce13140bfb0cb95ca3cdbdd1d38",
       "locale": "sk",
       "contents": [
         "packs/sk"
@@ -834,8 +894,8 @@
       "name": "Slovenian (language)",
       "description": "Content bound to the Slovenian language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
       "file": "bundles/sl.zip",
-      "bytes": 142274,
-      "sha256": "4b526ba47fde1be0d62f5324713a15db0ebaf590dbe4927cce8cc918832f83c4",
+      "bytes": 143384,
+      "sha256": "47b0a149d6ee0c4f3338a28a8b1a9ac3fafba4a918489e5f604f7328259710c0",
       "locale": "sl",
       "contents": [
         "packs/sl"
@@ -846,8 +906,8 @@
       "name": "Albanian (language)",
       "description": "Content bound to the Albanian language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/sq.zip",
-      "bytes": 148835,
-      "sha256": "e440a8f852e53c89b8fc173207c7741cc4fce230120128b7b2465ce28a8fd26e",
+      "bytes": 149911,
+      "sha256": "cc08aac850b240f5dddd48e4d72abd241577ac888de799b0bd0b0c30c64b9691",
       "locale": "sq",
       "contents": [
         "packs/sq"
@@ -858,11 +918,23 @@
       "name": "Serbian (language)",
       "description": "Content bound to the Serbian language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
       "file": "bundles/sr.zip",
-      "bytes": 174063,
-      "sha256": "79bcb3696a6e264cf6297e7811383a98557712c38c5ad7506c2d0ade812166e0",
+      "bytes": 175362,
+      "sha256": "af612aa7aa7c1b439ed3849c8ae1f892b452aaeb34080313c5a4eaf20a1f1570",
       "locale": "sr",
       "contents": [
         "packs/sr"
+      ]
+    },
+    {
+      "id": "ss",
+      "name": "Swati (language)",
+      "description": "Content bound to the Swati language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
+      "file": "bundles/ss.zip",
+      "bytes": 188331,
+      "sha256": "ed4e5c6f77f9124d0b8b31e691948cabff23d9b6e69dacbd58c070cc6d2cc437",
+      "locale": "ss",
+      "contents": [
+        "packs/ss"
       ]
     },
     {
@@ -870,8 +942,8 @@
       "name": "Swedish (language)",
       "description": "Content bound to the Swedish language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
       "file": "bundles/sv.zip",
-      "bytes": 140857,
-      "sha256": "11a0d5326031ee5a008824df3d29d0642121b3bc9c27ea7e100c19f468677582",
+      "bytes": 141909,
+      "sha256": "d9d37c02b6658f61663c13c4af9e4364b2987fa8408f3445ef3d6bfa2e3e6fb5",
       "locale": "sv",
       "contents": [
         "packs/sv"
@@ -882,8 +954,8 @@
       "name": "Swahili (language)",
       "description": "Content bound to the Swahili language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/sw.zip",
-      "bytes": 147664,
-      "sha256": "dc6c7498e65d64879d4ddbfb14cee9f20374678a870c79a5fc99c1c6ae063ae0",
+      "bytes": 148766,
+      "sha256": "2f5044cde656935b758c077222a21ff394ccab052851b6d90f02a0ade4d5c7bb",
       "locale": "sw",
       "contents": [
         "packs/sw"
@@ -894,8 +966,8 @@
       "name": "Tamil (language)",
       "description": "Content bound to the Tamil language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/ta.zip",
-      "bytes": 210313,
-      "sha256": "18f1f2abc6f5b00b65ccb237b36b871b7087b614b33d9ee4886fb582d9c2a516",
+      "bytes": 211572,
+      "sha256": "03de91b6188ddf086e8d66e3b7e4e3b47ab2f9fb54aeddffc723bb0a52c3fa75",
       "locale": "ta",
       "contents": [
         "packs/ta"
@@ -906,11 +978,23 @@
       "name": "Telugu (language)",
       "description": "Content bound to the Telugu language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
       "file": "bundles/te.zip",
-      "bytes": 188732,
-      "sha256": "91c6beec6dcdb6b831fe1ecc8eb2887ff3dbdec69be1a3f73a491a9905f8f92e",
+      "bytes": 190343,
+      "sha256": "f378cac60a99f5cf5a286208108cd661533a48d7643bb80a9ee5f4076ea0e5fd",
       "locale": "te",
       "contents": [
         "packs/te"
+      ]
+    },
+    {
+      "id": "tet",
+      "name": "Tetum (language)",
+      "description": "Content bound to the Tetum language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
+      "file": "bundles/tet.zip",
+      "bytes": 224942,
+      "sha256": "45ce0c80680c28c7bf36ec989bd5df2c6e9fbcc96845cb878398ff3f84d7e398",
+      "locale": "tet",
+      "contents": [
+        "packs/tet"
       ]
     },
     {
@@ -918,8 +1002,8 @@
       "name": "Tajik (language)",
       "description": "Content bound to the Tajik language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/tg.zip",
-      "bytes": 215456,
-      "sha256": "45eba89d84f73456b99a7ccfb259ca4d32c3a29127a126b482f6b03d1205ad2a",
+      "bytes": 216940,
+      "sha256": "21b107d5f15758842ba998278257bcf94c98ee5fe59b57ff2dd9b45afa9be055",
       "locale": "tg",
       "contents": [
         "packs/tg"
@@ -930,8 +1014,8 @@
       "name": "Thai (language)",
       "description": "Content bound to the Thai language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
       "file": "bundles/th.zip",
-      "bytes": 159989,
-      "sha256": "20bfe03a8386cf63105e02e233d927e3f353c751d622be52132b4fb8e498a6d1",
+      "bytes": 161329,
+      "sha256": "7c80730c77f238b8aae71abd74b1b17ef3aac0f0ff31a0b6544a51d7747652a6",
       "locale": "th",
       "contents": [
         "packs/th"
@@ -942,8 +1026,8 @@
       "name": "Turkmen (language)",
       "description": "Content bound to the Turkmen language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/tk.zip",
-      "bytes": 141083,
-      "sha256": "be8f05663c27f48b935c844ff9a973e5c852b79d5a24497d79cbb1e1b17a92ab",
+      "bytes": 142104,
+      "sha256": "28d5a35fc0ea6df129fbb7f219d96f550b551abe3f6bc3d128c595ed9887f968",
       "locale": "tk",
       "contents": [
         "packs/tk"
@@ -954,8 +1038,8 @@
       "name": "Turkish (language)",
       "description": "Content bound to the Turkish language rather than to any one country: address, airline, animal, book, clothing, color, commerce, company, date, education, event, finance, and 23 more.",
       "file": "bundles/tr.zip",
-      "bytes": 96010,
-      "sha256": "e5c1a825bfe76741215bd7cac3931bf6b8474e004933098a5a71bbc417d87577",
+      "bytes": 97119,
+      "sha256": "c577988b10cf08f9f97df0cf06e24b5fbf8d9a2104acd78fe0b1ffa7f6495255",
       "locale": "tr",
       "contents": [
         "packs/tr"
@@ -966,8 +1050,8 @@
       "name": "Uyghur (language)",
       "description": "Content bound to the Uyghur language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/ug-cn.zip",
-      "bytes": 200459,
-      "sha256": "9879b91c18ec2619c065962431c3e557479e996ceb6b76ac4e91286b88a403ca",
+      "bytes": 202020,
+      "sha256": "bab6c37ddd89d2cf6b3eb6593285f96407302babab1db73279b2847ad7b01399",
       "locale": "ug-cn",
       "contents": [
         "packs/ug-cn"
@@ -978,8 +1062,8 @@
       "name": "Ukrainian (language)",
       "description": "Content bound to the Ukrainian language rather than to any one country: address, airline, animal, book, clothing, color, commerce, company, date, education, event, finance, and 23 more.",
       "file": "bundles/uk.zip",
-      "bytes": 124561,
-      "sha256": "1d5110878d08ce053162034ec9072f54dad02923f56089976b5c308f8b6ee38b",
+      "bytes": 126069,
+      "sha256": "8b209af7cf74913a7956c4e8c97a35b1ece222c5200aed839e13f882dbd3becb",
       "locale": "uk",
       "contents": [
         "packs/uk"
@@ -990,11 +1074,23 @@
       "name": "Urdu (language)",
       "description": "Content bound to the Urdu language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/ur.zip",
-      "bytes": 193863,
-      "sha256": "bb6d84e344d6687b766eb7f0478acb44bd580b4d5c2427b560d92fa303ed9b25",
+      "bytes": 195452,
+      "sha256": "fcc7b62db10b754c05fc4145c35f2fb13661115c833d211812cff9cff6c44821",
       "locale": "ur",
       "contents": [
         "packs/ur"
+      ]
+    },
+    {
+      "id": "uz",
+      "name": "Uzbek (Cyrillic) (language)",
+      "description": "Content bound to the Uzbek (Cyrillic) language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
+      "file": "bundles/uz.zip",
+      "bytes": 227882,
+      "sha256": "8cbe186d37a12e9e281601b5b21494aa300a84d35ff0bf1961cd2be029f0cf5f",
+      "locale": "uz",
+      "contents": [
+        "packs/uz"
       ]
     },
     {
@@ -1002,8 +1098,8 @@
       "name": "Uzbek (Latin) (language)",
       "description": "Content bound to the Uzbek (Latin) language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/uz-latn.zip",
-      "bytes": 177700,
-      "sha256": "724618848e772c25b87a2c8f1021de11a0039251cd358baefd9d1d04dc01276e",
+      "bytes": 178879,
+      "sha256": "170ad27741f700aae0c185eb523e3c3025054e67cedd039267bf32fcfed9ee71",
       "locale": "uz-latn",
       "contents": [
         "packs/uz-latn"
@@ -1014,8 +1110,8 @@
       "name": "Vietnamese (language)",
       "description": "Content bound to the Vietnamese language rather than to any one country: address, airline, animal, book, clothing, color, commerce, company, date, education, event, finance, and 23 more.",
       "file": "bundles/vi.zip",
-      "bytes": 103983,
-      "sha256": "e5f1eb8ce330131b8d1ce3b7d973207ffca7b6d80b39541270002376ae5d0ca0",
+      "bytes": 105089,
+      "sha256": "64dcedfe367f14b8d3d7c5437ff5644aa4d2dad5c901b5a35249b1efa6a16c29",
       "locale": "vi",
       "contents": [
         "packs/vi"
@@ -1026,11 +1122,23 @@
       "name": "Yoruba (language)",
       "description": "Content bound to the Yoruba language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 25 more.",
       "file": "bundles/yo.zip",
-      "bytes": 180545,
-      "sha256": "cfc9b7fb80b6d0ad57b5ccb0bc30f468738dd740de62fefd24d5e9864c102e4a",
+      "bytes": 182262,
+      "sha256": "bc3d92bc0fc7cf6ce6dd108a9eed44ec8b0961e5b6af138cc9008b61777e29c6",
       "locale": "yo",
       "contents": [
         "packs/yo"
+      ]
+    },
+    {
+      "id": "zh",
+      "name": "Traditional Chinese (language)",
+      "description": "Content bound to the Traditional Chinese language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
+      "file": "bundles/zh.zip",
+      "bytes": 150180,
+      "sha256": "d6a053b95d6501f16f9620bf32549463984e06b5b43e4698644f8ed2a2f9f8dc",
+      "locale": "zh",
+      "contents": [
+        "packs/zh"
       ]
     },
     {
@@ -1038,11 +1146,30 @@
       "name": "Simplified Chinese (language)",
       "description": "Content bound to the Simplified Chinese language rather than to any one country: DATE_LOCALE, address, airline, animal, book, clothing, color, commerce, company, date, education, event, and 24 more.",
       "file": "bundles/zh-cn.zip",
-      "bytes": 113033,
-      "sha256": "abbf5ef8c0e8f469d994425b622d689f7a48e700afffcf98a92006cd2297b0b5",
+      "bytes": 113956,
+      "sha256": "1e96699626450d83b08b78c7179d42627df153dca8161267ed98a88261e0e7d6",
       "locale": "zh-cn",
       "contents": [
         "packs/zh-cn"
+      ]
+    },
+    {
+      "id": "afghanistan",
+      "name": "Afghanistan (country)",
+      "description": "Data specific to Afghanistan: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/afghanistan.zip",
+      "bytes": 7160,
+      "sha256": "762227485aefca9acb38360b2242095acef6c2fe562d801fb3eb48af5679f810",
+      "country": "afghanistan",
+      "regions": [
+        "asia"
+      ],
+      "point": [
+        66,
+        34
+      ],
+      "contents": [
+        "packs/countries/afghanistan"
       ]
     },
     {
@@ -1084,6 +1211,25 @@
       ]
     },
     {
+      "id": "andorra",
+      "name": "Andorra (country)",
+      "description": "Data specific to Andorra: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/andorra.zip",
+      "bytes": 4242,
+      "sha256": "7a852f273bbc3098a125739b4f13583cb701494752a539d0ec599134403cee0a",
+      "country": "andorra",
+      "regions": [
+        "europe"
+      ],
+      "point": [
+        1.6,
+        42.5
+      ],
+      "contents": [
+        "packs/countries/andorra"
+      ]
+    },
+    {
       "id": "angola",
       "name": "Angola (country)",
       "description": "Data specific to Angola: docs, education, finance, geo, holiday, phone, sport, vehicle.",
@@ -1100,6 +1246,25 @@
       ],
       "contents": [
         "packs/countries/angola"
+      ]
+    },
+    {
+      "id": "antigua_and_barbuda",
+      "name": "Antigua and Barbuda (country)",
+      "description": "Data specific to Antigua and Barbuda: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/antigua_and_barbuda.zip",
+      "bytes": 4650,
+      "sha256": "55d0e9513e801d4543d89de5e560e78589f73b4d4319411cba99cdedbc362b83",
+      "country": "antigua_and_barbuda",
+      "regions": [
+        "north"
+      ],
+      "point": [
+        -61.8,
+        17.1
+      ],
+      "contents": [
+        "packs/countries/antigua_and_barbuda"
       ]
     },
     {
@@ -1200,6 +1365,25 @@
       ]
     },
     {
+      "id": "bahamas",
+      "name": "Bahamas (country)",
+      "description": "Data specific to Bahamas: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/bahamas.zip",
+      "bytes": 4365,
+      "sha256": "7b1986bf09c2372d8d3a6c59e6e4e1a7c7dcc5573d08317598c7b7143f2485cd",
+      "country": "bahamas",
+      "regions": [
+        "north"
+      ],
+      "point": [
+        -77.4,
+        25
+      ],
+      "contents": [
+        "packs/countries/bahamas"
+      ]
+    },
+    {
       "id": "bahrain",
       "name": "Bahrain (country)",
       "description": "Data specific to Bahrain: docs, education, finance, geo, holiday, phone, sport, vehicle.",
@@ -1235,6 +1419,25 @@
       ],
       "contents": [
         "packs/countries/bangladesh"
+      ]
+    },
+    {
+      "id": "barbados",
+      "name": "Barbados (country)",
+      "description": "Data specific to Barbados: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/barbados.zip",
+      "bytes": 4304,
+      "sha256": "0c9c04818a35fa196092dbb3b081188ef22633796ba7be2c0681377661c90312",
+      "country": "barbados",
+      "regions": [
+        "north"
+      ],
+      "point": [
+        -59.5,
+        13.2
+      ],
+      "contents": [
+        "packs/countries/barbados"
       ]
     },
     {
@@ -1276,6 +1479,25 @@
       ]
     },
     {
+      "id": "belize",
+      "name": "Belize (country)",
+      "description": "Data specific to Belize: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/belize.zip",
+      "bytes": 4312,
+      "sha256": "26834404d59cb76f3ac74583744f21811fbeae6b17df2d39558c0f80c72944bb",
+      "country": "belize",
+      "regions": [
+        "north"
+      ],
+      "point": [
+        -88.5,
+        17.2
+      ],
+      "contents": [
+        "packs/countries/belize"
+      ]
+    },
+    {
       "id": "benin",
       "name": "Benin (country)",
       "description": "Data specific to Benin: docs, education, finance, geo, holiday, phone, sport, vehicle.",
@@ -1299,8 +1521,8 @@
       "name": "Bhutan (country)",
       "description": "Data specific to Bhutan: docs, education, finance, geo, government, holiday, phone, phoneAreaCode, phoneLandline, phoneMobilePrefix, phoneNational, society, sport, tax, telecom, vehicle.",
       "file": "bundles/bhutan.zip",
-      "bytes": 44879,
-      "sha256": "eac20d365ff1ea135a5c2eb08b146070f1624dd5fad8c6a2ed7d1cec22966ac2",
+      "bytes": 44908,
+      "sha256": "0965cd3fc56f3056568b76135dae2ee08549c4c989e0d3dbbf5cd808e30f4ddf",
       "country": "bhutan",
       "regions": [
         "asia"
@@ -1334,7 +1556,7 @@
     },
     {
       "id": "bosnia_and_herzegovina",
-      "name": "Bosnia And Herzegovina (country)",
+      "name": "Bosnia and Herzegovina (country)",
       "description": "Data specific to Bosnia And Herzegovina: docs, education, finance, geo, government, holiday, language, phone, phoneLandline, sport, tax, vehicle.",
       "file": "bundles/bosnia_and_herzegovina.zip",
       "bytes": 36076,
@@ -1352,12 +1574,31 @@
       ]
     },
     {
+      "id": "botswana",
+      "name": "Botswana (country)",
+      "description": "Data specific to Botswana: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/botswana.zip",
+      "bytes": 5421,
+      "sha256": "389b63a8e9783cc8283066051a3f368278abb3a845eb2e5546ced3bc5f363465",
+      "country": "botswana",
+      "regions": [
+        "africa"
+      ],
+      "point": [
+        24,
+        -22
+      ],
+      "contents": [
+        "packs/countries/botswana"
+      ]
+    },
+    {
       "id": "brazil",
       "name": "Brazil (country)",
       "description": "Data specific to Brazil: docs, education, finance, geo, holiday, phone, phoneAreaCode, sport, tax, vehicle.",
       "file": "bundles/brazil.zip",
-      "bytes": 7482,
-      "sha256": "8287079ecab1c57e919c672af6dbf74756f48300925dc6dc4cad2983653c2201",
+      "bytes": 8705,
+      "sha256": "bfa72365b2fd142620f8ebda817484357542b172861ddfd984694901de0fb496",
       "country": "brazil",
       "regions": [
         "south"
@@ -1368,6 +1609,25 @@
       ],
       "contents": [
         "packs/countries/brazil"
+      ]
+    },
+    {
+      "id": "brunei",
+      "name": "Brunei (country)",
+      "description": "Data specific to Brunei: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/brunei.zip",
+      "bytes": 4166,
+      "sha256": "e7d8db34684073f86e38b4d7661a2190eba1e9286fcb6533f100405ffe47de42",
+      "country": "brunei",
+      "regions": [
+        "asia"
+      ],
+      "point": [
+        114.7,
+        4.5
+      ],
+      "contents": [
+        "packs/countries/brunei"
       ]
     },
     {
@@ -1406,6 +1666,25 @@
       ],
       "contents": [
         "packs/countries/burkina_faso"
+      ]
+    },
+    {
+      "id": "burundi",
+      "name": "Burundi (country)",
+      "description": "Data specific to Burundi: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/burundi.zip",
+      "bytes": 5191,
+      "sha256": "77c1b889b15153dd50e7f19690e5d5245ec93dabf3273f626940cba336b81563",
+      "country": "burundi",
+      "regions": [
+        "africa"
+      ],
+      "point": [
+        29.9,
+        -3.4
+      ],
+      "contents": [
+        "packs/countries/burundi"
       ]
     },
     {
@@ -1449,10 +1728,10 @@
     {
       "id": "canada",
       "name": "Canada (country)",
-      "description": "Data specific to Canada: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "description": "Data specific to Canada: docs, education, finance, geo, holiday, phone, phoneAreaCode, sport, tax, vehicle.",
       "file": "bundles/canada.zip",
-      "bytes": 10848,
-      "sha256": "18b3efbbdb3f6c52a6b657a1ddc0a3f7c120f81b120cab83da1df5bce15e2857",
+      "bytes": 11798,
+      "sha256": "09e0e006c567d56b5535c548dc878bdf245bd823ab9bd11d9e9a0860bb6ea16f",
       "country": "canada",
       "regions": [
         "north"
@@ -1482,6 +1761,25 @@
       ],
       "contents": [
         "packs/countries/cape_verde"
+      ]
+    },
+    {
+      "id": "central_african_republic",
+      "name": "Central African Republic (country)",
+      "description": "Data specific to Central African Republic: education, finance, geo, holiday, language, phone, sport, vehicle.",
+      "file": "bundles/central_african_republic.zip",
+      "bytes": 6131,
+      "sha256": "ee324419f492c79cd7c09ae4518832fa843439d5e1fb3de68f566dbaa2834e74",
+      "country": "central_african_republic",
+      "regions": [
+        "africa"
+      ],
+      "point": [
+        21,
+        6.6
+      ],
+      "contents": [
+        "packs/countries/central_african_republic"
       ]
     },
     {
@@ -1733,6 +2031,25 @@
       ]
     },
     {
+      "id": "dominica",
+      "name": "Dominica (country)",
+      "description": "Data specific to Dominica: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/dominica.zip",
+      "bytes": 4093,
+      "sha256": "56eccf1c8a1cf05c828e2ba4f5f991a4d35072d029a437fcc343b18debe2ec59",
+      "country": "dominica",
+      "regions": [
+        "north"
+      ],
+      "point": [
+        -61.4,
+        15.4
+      ],
+      "contents": [
+        "packs/countries/dominica"
+      ]
+    },
+    {
       "id": "dominican_republic",
       "name": "Dominican Republic (country)",
       "description": "Data specific to Dominican Republic: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
@@ -1753,8 +2070,8 @@
     },
     {
       "id": "dr_congo",
-      "name": "Dr Congo (country)",
-      "description": "Data specific to Dr Congo: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "name": "DR Congo (country)",
+      "description": "Data specific to DR Congo: docs, education, finance, geo, holiday, phone, sport, vehicle.",
       "file": "bundles/dr_congo.zip",
       "bytes": 3383,
       "sha256": "5c58dd9e13adc1fdd54cec5b1a0411fb47fd90f2bd622a9bdabb8ebd6d1d3723",
@@ -1866,6 +2183,25 @@
       ]
     },
     {
+      "id": "eritrea",
+      "name": "Eritrea (country)",
+      "description": "Data specific to Eritrea: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/eritrea.zip",
+      "bytes": 4807,
+      "sha256": "c584ab4ec7e4eaf5ec40631fa780e9c3a411acd75f67553f9d2903d22bb38fb8",
+      "country": "eritrea",
+      "regions": [
+        "africa"
+      ],
+      "point": [
+        39,
+        15.2
+      ],
+      "contents": [
+        "packs/countries/eritrea"
+      ]
+    },
+    {
       "id": "estonia",
       "name": "Estonia (country)",
       "description": "Data specific to Estonia: docs, education, finance, geo, government, holiday, phone, phoneLandline, phoneMobilePrefix, phoneNational, sport, tax, vehicle.",
@@ -1882,6 +2218,63 @@
       ],
       "contents": [
         "packs/countries/estonia"
+      ]
+    },
+    {
+      "id": "eswatini",
+      "name": "Eswatini (country)",
+      "description": "Data specific to Eswatini: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/eswatini.zip",
+      "bytes": 4496,
+      "sha256": "597211ebc4dccb65bad109b37bd9d70c16aa4dd5ba805e6162ee58a1f4663ea1",
+      "country": "eswatini",
+      "regions": [
+        "africa"
+      ],
+      "point": [
+        31.5,
+        -26.5
+      ],
+      "contents": [
+        "packs/countries/eswatini"
+      ]
+    },
+    {
+      "id": "ethiopia",
+      "name": "Ethiopia (country)",
+      "description": "Data specific to Ethiopia: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/ethiopia.zip",
+      "bytes": 8106,
+      "sha256": "e9b80adf98fe4a46c97db28674a6ec3ddad64118211a2806cbbf8d1333775cd6",
+      "country": "ethiopia",
+      "regions": [
+        "africa"
+      ],
+      "point": [
+        39.5,
+        9
+      ],
+      "contents": [
+        "packs/countries/ethiopia"
+      ]
+    },
+    {
+      "id": "fiji",
+      "name": "Fiji (country)",
+      "description": "Data specific to Fiji: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/fiji.zip",
+      "bytes": 3782,
+      "sha256": "c795fb5ae8be95584020843511fd4d95187bd31aae6933bbd5c2537a97e31636",
+      "country": "fiji",
+      "regions": [
+        "oceania"
+      ],
+      "point": [
+        178,
+        -17.8
+      ],
+      "contents": [
+        "packs/countries/fiji"
       ]
     },
     {
@@ -1908,8 +2301,8 @@
       "name": "France (country)",
       "description": "Data specific to France: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
       "file": "bundles/france.zip",
-      "bytes": 12311,
-      "sha256": "f34deb9e3f230bdd11deed5fa45d3775e6ab9a9bf94abf5755be95f594c30b12",
+      "bytes": 14469,
+      "sha256": "7c26e05a8f9e05d49c5a72b8c59bcccf97ce9a0a08aea1d7e6781b10a326f2f4",
       "country": "france",
       "regions": [
         "europe"
@@ -1942,6 +2335,25 @@
       ]
     },
     {
+      "id": "gambia",
+      "name": "Gambia (country)",
+      "description": "Data specific to Gambia: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/gambia.zip",
+      "bytes": 4685,
+      "sha256": "1aa3b8a514af41b4e367d53acedf677bbe7c8887cc878c1641856e14a22a1cd9",
+      "country": "gambia",
+      "regions": [
+        "africa"
+      ],
+      "point": [
+        -15.4,
+        13.4
+      ],
+      "contents": [
+        "packs/countries/gambia"
+      ]
+    },
+    {
       "id": "georgia",
       "name": "Georgia (country)",
       "description": "Data specific to Georgia: docs, education, finance, geo, government, holiday, legal, phone, phoneAreaCode, phoneLandline, phoneMobilePrefix, sport, tax, vehicle.",
@@ -1966,8 +2378,8 @@
       "name": "Germany (country)",
       "description": "Data specific to Germany: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
       "file": "bundles/germany.zip",
-      "bytes": 7340,
-      "sha256": "d586968731b8ae2ae2836f832d151a4a321b13f9478fb8f76fed5045dca33e26",
+      "bytes": 9537,
+      "sha256": "b6928c713608b811e4002a77290d35021a379474073144b1869b11477b98392c",
       "country": "germany",
       "regions": [
         "europe"
@@ -2019,6 +2431,25 @@
       ]
     },
     {
+      "id": "grenada",
+      "name": "Grenada (country)",
+      "description": "Data specific to Grenada: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/grenada.zip",
+      "bytes": 3963,
+      "sha256": "7f1d9b0fb01fbdd03b785d3b20e93fbec204a8040a965621dd6787f2700678ca",
+      "country": "grenada",
+      "regions": [
+        "north"
+      ],
+      "point": [
+        -61.7,
+        12.1
+      ],
+      "contents": [
+        "packs/countries/grenada"
+      ]
+    },
+    {
       "id": "guatemala",
       "name": "Guatemala (country)",
       "description": "Data specific to Guatemala: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
@@ -2058,8 +2489,8 @@
     },
     {
       "id": "guinea_bissau",
-      "name": "Guinea Bissau (country)",
-      "description": "Data specific to Guinea Bissau: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "name": "Guinea-Bissau (country)",
+      "description": "Data specific to Guinea-Bissau: docs, education, finance, geo, holiday, phone, sport, vehicle.",
       "file": "bundles/guinea_bissau.zip",
       "bytes": 4362,
       "sha256": "db7962c7f7e0223f18371b226d9c3375383845ddd7214149cc9fd339b35d4ec9",
@@ -2073,6 +2504,25 @@
       ],
       "contents": [
         "packs/countries/guinea_bissau"
+      ]
+    },
+    {
+      "id": "guyana",
+      "name": "Guyana (country)",
+      "description": "Data specific to Guyana: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/guyana.zip",
+      "bytes": 4331,
+      "sha256": "e95fb000fedb179e7145bfb6270cab319d7c9503503b4416c308e48864a08562",
+      "country": "guyana",
+      "regions": [
+        "south"
+      ],
+      "point": [
+        -58.9,
+        4.9
+      ],
+      "contents": [
+        "packs/countries/guyana"
       ]
     },
     {
@@ -2304,6 +2754,25 @@
       ]
     },
     {
+      "id": "jamaica",
+      "name": "Jamaica (country)",
+      "description": "Data specific to Jamaica: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/jamaica.zip",
+      "bytes": 5552,
+      "sha256": "a70450ced4ce66a5169ac08df6879820fae461a27c5ee03c1cd4ae7046510408",
+      "country": "jamaica",
+      "regions": [
+        "north"
+      ],
+      "point": [
+        -77.3,
+        18.1
+      ],
+      "contents": [
+        "packs/countries/jamaica"
+      ]
+    },
+    {
       "id": "japan",
       "name": "Japan (country)",
       "description": "Data specific to Japan: docs, education, finance, geo, holiday, phone, phoneLandline, sport, tax, vehicle.",
@@ -2380,6 +2849,25 @@
       ]
     },
     {
+      "id": "kiribati",
+      "name": "Kiribati (country)",
+      "description": "Data specific to Kiribati: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/kiribati.zip",
+      "bytes": 4047,
+      "sha256": "0ba974d8a3939d55e3391c59384390a22bc57d5d53d00e9bc4b44fa472c1ab70",
+      "country": "kiribati",
+      "regions": [
+        "oceania"
+      ],
+      "point": [
+        173,
+        1.4
+      ],
+      "contents": [
+        "packs/countries/kiribati"
+      ]
+    },
+    {
       "id": "kuwait",
       "name": "Kuwait (country)",
       "description": "Data specific to Kuwait: docs, education, finance, geo, holiday, phone, sport, vehicle.",
@@ -2422,8 +2910,8 @@
       "name": "Laos (country)",
       "description": "Data specific to Laos: docs, education, finance, geo, government, holiday, legal, phone, phoneAreaCode, phoneLandline, phoneMobilePrefix, sport, tax, vehicle.",
       "file": "bundles/laos.zip",
-      "bytes": 48012,
-      "sha256": "ced15b736c833cc301c801ce17b01d0eff9171c765ed902b38be8ea8a2dd1a79",
+      "bytes": 48035,
+      "sha256": "45c6df5b91fedf2e32c2f4aad8bb226d0030abd3cbdb8058b45468068af81985",
       "country": "laos",
       "regions": [
         "asia"
@@ -2472,6 +2960,44 @@
       ],
       "contents": [
         "packs/countries/lebanon"
+      ]
+    },
+    {
+      "id": "lesotho",
+      "name": "Lesotho (country)",
+      "description": "Data specific to Lesotho: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/lesotho.zip",
+      "bytes": 4715,
+      "sha256": "eb8c1d1158c946e1d4a74008158e487f03889772c1575a17a8c1f4cdee4f2ecd",
+      "country": "lesotho",
+      "regions": [
+        "africa"
+      ],
+      "point": [
+        28.2,
+        -29.6
+      ],
+      "contents": [
+        "packs/countries/lesotho"
+      ]
+    },
+    {
+      "id": "liberia",
+      "name": "Liberia (country)",
+      "description": "Data specific to Liberia: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/liberia.zip",
+      "bytes": 4938,
+      "sha256": "d367c153820bb07a97b7a3d4fc97b97b3910f53ccacadf351221fa5eee4e642f",
+      "country": "liberia",
+      "regions": [
+        "africa"
+      ],
+      "point": [
+        -9.4,
+        6.4
+      ],
+      "contents": [
+        "packs/countries/liberia"
       ]
     },
     {
@@ -2589,6 +3115,25 @@
       ]
     },
     {
+      "id": "malawi",
+      "name": "Malawi (country)",
+      "description": "Data specific to Malawi: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/malawi.zip",
+      "bytes": 6241,
+      "sha256": "b44a389cb770cc4b4279f556736b4e6618484427f3ed1c6049d71808738ebc13",
+      "country": "malawi",
+      "regions": [
+        "africa"
+      ],
+      "point": [
+        34,
+        -13.5
+      ],
+      "contents": [
+        "packs/countries/malawi"
+      ]
+    },
+    {
       "id": "malaysia",
       "name": "Malaysia (country)",
       "description": "Data specific to Malaysia: docs, education, finance, geo, government, holiday, phone, sport, tax, vehicle.",
@@ -2665,6 +3210,25 @@
       ]
     },
     {
+      "id": "marshall_islands",
+      "name": "Marshall Islands (country)",
+      "description": "Data specific to Marshall Islands: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/marshall_islands.zip",
+      "bytes": 4255,
+      "sha256": "cdbacc9f522c9dbdc3042f8771ebe29d12ff123b255a01e094cb49b0a68a9e6e",
+      "country": "marshall_islands",
+      "regions": [
+        "oceania"
+      ],
+      "point": [
+        171,
+        7.1
+      ],
+      "contents": [
+        "packs/countries/marshall_islands"
+      ]
+    },
+    {
       "id": "mauritania",
       "name": "Mauritania (country)",
       "description": "Data specific to Mauritania: docs, education, finance, geo, holiday, phone, sport.",
@@ -2684,6 +3248,25 @@
       ]
     },
     {
+      "id": "mauritius",
+      "name": "Mauritius (country)",
+      "description": "Data specific to Mauritius: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/mauritius.zip",
+      "bytes": 5589,
+      "sha256": "4d25a5de4fee575fee1fa735fdc24e30d48a37cc5b98b048cecca2b5f8fd5c03",
+      "country": "mauritius",
+      "regions": [
+        "africa"
+      ],
+      "point": [
+        57.5,
+        -20.3
+      ],
+      "contents": [
+        "packs/countries/mauritius"
+      ]
+    },
+    {
       "id": "mexico",
       "name": "Mexico (country)",
       "description": "Data specific to Mexico regardless of the language it is written in: CURP, RFC, NSS and clave de elector with real check digits, CLABE with its Banxico bank codes, states and their INEGI/ISO/RENAPO codes, municipalities, cities, postal codes, universities, holidays, sports teams, plates and the SAT tax regimes.",
@@ -2700,6 +3283,25 @@
       ],
       "contents": [
         "packs/countries/mexico"
+      ]
+    },
+    {
+      "id": "micronesia",
+      "name": "Micronesia (country)",
+      "description": "Data specific to Micronesia: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/micronesia.zip",
+      "bytes": 3930,
+      "sha256": "19ffcb58b69033c6af9a0f05c9ce7623298290c49f0532416c1ae8e7956c90ec",
+      "country": "micronesia",
+      "regions": [
+        "oceania"
+      ],
+      "point": [
+        158,
+        6.9
+      ],
+      "contents": [
+        "packs/countries/micronesia"
       ]
     },
     {
@@ -2760,6 +3362,25 @@
       ]
     },
     {
+      "id": "montenegro",
+      "name": "Montenegro (country)",
+      "description": "Data specific to Montenegro: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/montenegro.zip",
+      "bytes": 5818,
+      "sha256": "372a09be63422e43adb18334213ad81e25a860f2307bf7a5b63a0396b7b8f89a",
+      "country": "montenegro",
+      "regions": [
+        "europe"
+      ],
+      "point": [
+        19.4,
+        42.7
+      ],
+      "contents": [
+        "packs/countries/montenegro"
+      ]
+    },
+    {
       "id": "morocco",
       "name": "Morocco (country)",
       "description": "Data specific to Morocco: docs, education, finance, geo, holiday, phone, sport, vehicle.",
@@ -2802,8 +3423,8 @@
       "name": "Myanmar (country)",
       "description": "Data specific to Myanmar: docs, education, finance, geo, government, holiday, legal, phone, phoneLandline, phoneMobilePrefix, sport, tax, vehicle.",
       "file": "bundles/myanmar.zip",
-      "bytes": 39744,
-      "sha256": "8bf44edc632067e72a6e749fa7ae2fd2680560644fdd3fc9f497949d0c9b9c84",
+      "bytes": 39763,
+      "sha256": "0bf33fab2a085727874a11e0330f7d185b2f25118c7fbffabd318543d7c576e1",
       "country": "myanmar",
       "regions": [
         "asia"
@@ -2814,6 +3435,44 @@
       ],
       "contents": [
         "packs/countries/myanmar"
+      ]
+    },
+    {
+      "id": "namibia",
+      "name": "Namibia (country)",
+      "description": "Data specific to Namibia: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/namibia.zip",
+      "bytes": 4938,
+      "sha256": "571f54d2a2732522bc7daf8827e7dc5760ca237e3999ba8000473702f160db66",
+      "country": "namibia",
+      "regions": [
+        "africa"
+      ],
+      "point": [
+        17,
+        -22
+      ],
+      "contents": [
+        "packs/countries/namibia"
+      ]
+    },
+    {
+      "id": "nauru",
+      "name": "Nauru (country)",
+      "description": "Data specific to Nauru: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/nauru.zip",
+      "bytes": 3769,
+      "sha256": "a19d2466e533486a81db72582bc1e27e621a4f8f070054b51a6e4a0aee1302e6",
+      "country": "nauru",
+      "regions": [
+        "oceania"
+      ],
+      "point": [
+        166.9,
+        -0.5
+      ],
+      "contents": [
+        "packs/countries/nauru"
       ]
     },
     {
@@ -2931,6 +3590,25 @@
       ]
     },
     {
+      "id": "north_korea",
+      "name": "North Korea (country)",
+      "description": "Data specific to North Korea: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/north_korea.zip",
+      "bytes": 5422,
+      "sha256": "2265a99687f924ccbf5de74d740ea02c94f8f20162ad5fa3e5847077fd9143d8",
+      "country": "north_korea",
+      "regions": [
+        "asia"
+      ],
+      "point": [
+        127,
+        40
+      ],
+      "contents": [
+        "packs/countries/north_korea"
+      ]
+    },
+    {
       "id": "north_macedonia",
       "name": "North Macedonia (country)",
       "description": "Data specific to North Macedonia: docs, education, finance, geo, government, holiday, language, phone, phoneAreaCode, sport, tax, vehicle.",
@@ -3007,6 +3685,25 @@
       ]
     },
     {
+      "id": "palau",
+      "name": "Palau (country)",
+      "description": "Data specific to Palau: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/palau.zip",
+      "bytes": 3610,
+      "sha256": "18c1c1fd4432ad6ab1f1c60ad8fe943a025c87a79c87acf2988328cf156ea167",
+      "country": "palau",
+      "regions": [
+        "oceania"
+      ],
+      "point": [
+        134.6,
+        7.5
+      ],
+      "contents": [
+        "packs/countries/palau"
+      ]
+    },
+    {
       "id": "palestine",
       "name": "Palestine (country)",
       "description": "Data specific to Palestine: docs, education, finance, geo, holiday, phone, sport, vehicle.",
@@ -3042,6 +3739,25 @@
       ],
       "contents": [
         "packs/countries/panama"
+      ]
+    },
+    {
+      "id": "papua_new_guinea",
+      "name": "Papua New Guinea (country)",
+      "description": "Data specific to Papua New Guinea: education, finance, geo, holiday, language, phone, sport, vehicle.",
+      "file": "bundles/papua_new_guinea.zip",
+      "bytes": 5981,
+      "sha256": "e73eeae5fdf83cc465f3f3ed8d992ae22825586925c7fcad563d1f80107e84d4",
+      "country": "papua_new_guinea",
+      "regions": [
+        "oceania"
+      ],
+      "point": [
+        144,
+        -6
+      ],
+      "contents": [
+        "packs/countries/papua_new_guinea"
       ]
     },
     {
@@ -3236,6 +3952,82 @@
       ]
     },
     {
+      "id": "saint_kitts_and_nevis",
+      "name": "Saint Kitts and Nevis (country)",
+      "description": "Data specific to Saint Kitts and Nevis: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/saint_kitts_and_nevis.zip",
+      "bytes": 4693,
+      "sha256": "879673a6a514de2e512952ccb1cfa4c29df255ac06958100feded5ef6dde6ba6",
+      "country": "saint_kitts_and_nevis",
+      "regions": [
+        "north"
+      ],
+      "point": [
+        -62.7,
+        17.3
+      ],
+      "contents": [
+        "packs/countries/saint_kitts_and_nevis"
+      ]
+    },
+    {
+      "id": "saint_lucia",
+      "name": "Saint Lucia (country)",
+      "description": "Data specific to Saint Lucia: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/saint_lucia.zip",
+      "bytes": 4050,
+      "sha256": "e6369ef14e2a8286181d11fff41249247059c28b1847cfcdcb13b9d7dc1156b4",
+      "country": "saint_lucia",
+      "regions": [
+        "north"
+      ],
+      "point": [
+        -61,
+        13.9
+      ],
+      "contents": [
+        "packs/countries/saint_lucia"
+      ]
+    },
+    {
+      "id": "saint_vincent_and_the_grenadines",
+      "name": "Saint Vincent and the Grenadines (country)",
+      "description": "Data specific to Saint Vincent and the Grenadines: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/saint_vincent_and_the_grenadines.zip",
+      "bytes": 4669,
+      "sha256": "26f93ba8b4c68d54e6f522a4c51fc1b815fe04402d584939df7deb62d52d0b5b",
+      "country": "saint_vincent_and_the_grenadines",
+      "regions": [
+        "north"
+      ],
+      "point": [
+        -61.2,
+        13.2
+      ],
+      "contents": [
+        "packs/countries/saint_vincent_and_the_grenadines"
+      ]
+    },
+    {
+      "id": "samoa",
+      "name": "Samoa (country)",
+      "description": "Data specific to Samoa: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/samoa.zip",
+      "bytes": 4041,
+      "sha256": "328b1a5acce8ffd71527ea6294d2d029867315dd94a09c81c21272931a64d37f",
+      "country": "samoa",
+      "regions": [
+        "oceania"
+      ],
+      "point": [
+        -172.1,
+        -13.6
+      ],
+      "contents": [
+        "packs/countries/samoa"
+      ]
+    },
+    {
       "id": "san_marino",
       "name": "San Marino (country)",
       "description": "Data specific to San Marino: docs, education, finance, geo, holiday, phone, sport, vehicle.",
@@ -3256,8 +4048,8 @@
     },
     {
       "id": "sao_tome_and_principe",
-      "name": "Sao Tome And Principe (country)",
-      "description": "Data specific to Sao Tome And Principe: docs, education, finance, geo, holiday, phone, sport.",
+      "name": "Sao Tome and Principe (country)",
+      "description": "Data specific to Sao Tome and Principe: docs, education, finance, geo, holiday, phone, sport.",
       "file": "bundles/sao_tome_and_principe.zip",
       "bytes": 4555,
       "sha256": "df057b28c2eb3a28d32893fb04b9715f1f6a59dc4b16f6d32905be2cb6094b93",
@@ -3331,6 +4123,44 @@
       ]
     },
     {
+      "id": "seychelles",
+      "name": "Seychelles (country)",
+      "description": "Data specific to Seychelles: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/seychelles.zip",
+      "bytes": 4340,
+      "sha256": "80b611c9e7e2c7a5f226e05a8c0759cc1fbbfa3d89abe4c7be73b4973c03a684",
+      "country": "seychelles",
+      "regions": [
+        "africa"
+      ],
+      "point": [
+        55.5,
+        -4.6
+      ],
+      "contents": [
+        "packs/countries/seychelles"
+      ]
+    },
+    {
+      "id": "sierra_leone",
+      "name": "Sierra Leone (country)",
+      "description": "Data specific to Sierra Leone: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/sierra_leone.zip",
+      "bytes": 5842,
+      "sha256": "29a36aa8301d505da2d2711e13c21de2cc5141fdc20b25d788dc910de952a35c",
+      "country": "sierra_leone",
+      "regions": [
+        "africa"
+      ],
+      "point": [
+        -11.8,
+        8.5
+      ],
+      "contents": [
+        "packs/countries/sierra_leone"
+      ]
+    },
+    {
       "id": "singapore",
       "name": "Singapore (country)",
       "description": "Data specific to Singapore: docs, education, finance, geo, holiday, phone, phoneLandline, sport, tax, vehicle.",
@@ -3385,6 +4215,25 @@
       ],
       "contents": [
         "packs/countries/slovenia"
+      ]
+    },
+    {
+      "id": "solomon_islands",
+      "name": "Solomon Islands (country)",
+      "description": "Data specific to Solomon Islands: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/solomon_islands.zip",
+      "bytes": 4289,
+      "sha256": "4cc7b0e345963d412d2e7214b0e83733a56a2010736c5861c2cae5d3fd540857",
+      "country": "solomon_islands",
+      "regions": [
+        "oceania"
+      ],
+      "point": [
+        160,
+        -9.6
+      ],
+      "contents": [
+        "packs/countries/solomon_islands"
       ]
     },
     {
@@ -3445,6 +4294,25 @@
       ]
     },
     {
+      "id": "south_sudan",
+      "name": "South Sudan (country)",
+      "description": "Data specific to South Sudan: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/south_sudan.zip",
+      "bytes": 5092,
+      "sha256": "6ac2d0426ad59c26ae5250f298b9c975c984e9356a3c2c865eb270a88045f242",
+      "country": "south_sudan",
+      "regions": [
+        "africa"
+      ],
+      "point": [
+        31,
+        7
+      ],
+      "contents": [
+        "packs/countries/south_sudan"
+      ]
+    },
+    {
       "id": "spain",
       "name": "Spain (country)",
       "description": "Data specific to Spain: DNI, NIE, CIF and NIF, the CCC and its ES IBAN, the social-security NUSS, the 17 autonomous communities and 50 provinces with their INE and ISO codes, municipalities, postal codes that encode the province, universities, LaLiga and Segunda clubs, holidays and the current plate format.",
@@ -3499,6 +4367,25 @@
       ],
       "contents": [
         "packs/countries/sudan"
+      ]
+    },
+    {
+      "id": "suriname",
+      "name": "Suriname (country)",
+      "description": "Data specific to Suriname: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/suriname.zip",
+      "bytes": 4417,
+      "sha256": "817c722ef415999e6724effc73f28cb96a4c74639db420c1d9d8c6bdac89d2d5",
+      "country": "suriname",
+      "regions": [
+        "south"
+      ],
+      "point": [
+        -56,
+        4
+      ],
+      "contents": [
+        "packs/countries/suriname"
       ]
     },
     {
@@ -3654,6 +4541,45 @@
       ]
     },
     {
+      "id": "tonga",
+      "name": "Tonga (country)",
+      "description": "Data specific to Tonga: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/tonga.zip",
+      "bytes": 3870,
+      "sha256": "aa5879f8ed887368c5cdb0e0a84c66bb308bc73eb0a333bb5819803c2c18c523",
+      "country": "tonga",
+      "regions": [
+        "oceania"
+      ],
+      "point": [
+        -175.2,
+        -21.2
+      ],
+      "contents": [
+        "packs/countries/tonga"
+      ]
+    },
+    {
+      "id": "trinidad_and_tobago",
+      "name": "Trinidad and Tobago (country)",
+      "description": "Data specific to Trinidad and Tobago: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/trinidad_and_tobago.zip",
+      "bytes": 5941,
+      "sha256": "463e20ea8caa339220f941ab2e3ba59906ef40cafbb0a987dadbf787703c9678",
+      "country": "trinidad_and_tobago",
+      "regions": [
+        "north",
+        "south"
+      ],
+      "point": [
+        -61.2,
+        10.7
+      ],
+      "contents": [
+        "packs/countries/trinidad_and_tobago"
+      ]
+    },
+    {
       "id": "tunisia",
       "name": "Tunisia (country)",
       "description": "Data specific to Tunisia: docs, education, finance, geo, holiday, phone, sport, vehicle.",
@@ -3712,9 +4638,28 @@
       ]
     },
     {
+      "id": "tuvalu",
+      "name": "Tuvalu (country)",
+      "description": "Data specific to Tuvalu: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/tuvalu.zip",
+      "bytes": 3701,
+      "sha256": "d46516a07cd46677af2f89e38966efad0326884fa56588baf57bb4deb7992f65",
+      "country": "tuvalu",
+      "regions": [
+        "oceania"
+      ],
+      "point": [
+        179.2,
+        -8.5
+      ],
+      "contents": [
+        "packs/countries/tuvalu"
+      ]
+    },
+    {
       "id": "uae",
-      "name": "Uae (country)",
-      "description": "Data specific to Uae: docs, education, finance, geo, holiday, phone, sport, vehicle.",
+      "name": "United Arab Emirates (country)",
+      "description": "Data specific to United Arab Emirates: docs, education, finance, geo, holiday, phone, sport, vehicle.",
       "file": "bundles/uae.zip",
       "bytes": 4398,
       "sha256": "bc5688e33be8920d38c09566f043d3b76ebb704ecc2bdb6a830db04ff29ff6b1",
@@ -3808,11 +4753,11 @@
     },
     {
       "id": "usa",
-      "name": "Usa (country)",
-      "description": "Data specific to the USA regardless of the language it is written in: SSN/ITIN/EIN, ZIP codes, states, street names, ABA routing numbers, phone format, license plates.",
+      "name": "United States (country)",
+      "description": "Data specific to the USA regardless of the language it is written in: SSN/ITIN/EIN, NPI provider numbers, ZIP codes, states, street names, ABA routing numbers, phone numbers with real area codes, license plates.",
       "file": "bundles/usa.zip",
-      "bytes": 19277,
-      "sha256": "af330fdb0ac116349e0a9c42ca1f3c066fccb6902595dd5e916d79c6ee1dfd0f",
+      "bytes": 22048,
+      "sha256": "37197b62e4577ce278a4e1eea8704c1bd578ecc75f5b301ed0364a95252f5f39",
       "country": "usa",
       "regions": [
         "north"
@@ -3842,6 +4787,25 @@
       ],
       "contents": [
         "packs/countries/uzbekistan"
+      ]
+    },
+    {
+      "id": "vanuatu",
+      "name": "Vanuatu (country)",
+      "description": "Data specific to Vanuatu: education, finance, geo, holiday, phone, sport, vehicle.",
+      "file": "bundles/vanuatu.zip",
+      "bytes": 4088,
+      "sha256": "2df99eda321a11eab1db90b36ca26cd799e30489cbb81e84aabf8bc4636e6cc6",
+      "country": "vanuatu",
+      "regions": [
+        "oceania"
+      ],
+      "point": [
+        167,
+        -16
+      ],
+      "contents": [
+        "packs/countries/vanuatu"
       ]
     },
     {
@@ -3918,6 +4882,25 @@
       ],
       "contents": [
         "packs/countries/yemen"
+      ]
+    },
+    {
+      "id": "zambia",
+      "name": "Zambia (country)",
+      "description": "Data specific to Zambia: docs, education, finance, geo, holiday, phone, sport, tax, vehicle.",
+      "file": "bundles/zambia.zip",
+      "bytes": 5608,
+      "sha256": "b93731dd7f306b7c27d8cc74e1e976a279c149a9ffa5c1e94844c75d17863c34",
+      "country": "zambia",
+      "regions": [
+        "africa"
+      ],
+      "point": [
+        28,
+        -14
+      ],
+      "contents": [
+        "packs/countries/zambia"
       ]
     },
     {
